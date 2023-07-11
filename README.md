@@ -2,45 +2,47 @@
 The model suggests the optimal starting time for electric vehicles to minimize the user's charging cost, considering the Time-of-use tariff scheme
 
 ### ⚡Context
-**Problem statement**
-
-Amidst the growing climate-conscious population and the government incentives for electric vehicles (EVs), the world is experiencing a transition from internal combustion engines to zero-emission mobility. Large-scale adoption of electric cars in the near future is foreseeable. Electric car registrations have quadrupled within just three years (2019-2021) and its market share hit a new record of 19.2% in the EU as of April 2023. However, this transition poses some potential obstacles to both the EV owners and the system that supports EV penetration.
-
-- _Grid's instability_: such as unacceptable voltage fluctuation, caused by a surge in electricity consumption due to EV charging at peak hours.
-- _Inconvenience of charging access:_ is one of the keys that discourage both the adoption and continued use of EVs [1]. The charging infrastructure network shall be designed in a way that avoids charging inconvenience, which requires an understanding of the charging behaviors, for example, where, when, how often, and how long EV owners charge their vehicles.
-- _The uncertainty of the charging cost_: charging cost is the primary operating cost of an EV, which is directly linked to the electricity price during charging. EV owners would be happy when they can minimize this cost while still meeting their vehicle's charging needs.
-
-
-**Solutions:** 
-
 Consider a manager of a residential building that wishes to minimize the cost of energy consumption while still meeting the EV charging demand of the tenants. This algorithm will fulfill that goal by determining the optimal time to initiate charging for each individual EV. 
 
-The charging cost is computed based on a _Time-of-Use tariff scheme_, where prices are predetermined and fixed during a period of time. Typically, the tariffs during high-load phases are generally higher compared to low-load periods. Consequently, delaying charging to low-cost hours helps to shift partial electricity consumption to off-peak periods, which _not only provides economic advantages but also contributes to the stability of grid operations._
-
-
+The charging cost is computed based on a _Time-of-Use tariff scheme_, where prices are predetermined and fixed during a period of time. Typically, the tariffs during high-load phases are generally higher compared to low-load periods. Consequently, delaying charging to low-cost hours helps to shift partial electricity consumption to off-peak periods, which _**not only provides economic advantages but also contributes to the stability of grid operations.**_
 
 ### 🔌 Process
 
-**Step 1**: Load the arrival time, departure time, charging duration, and charging power of the EV
+**Step 1**: The charging control process starts by loading EVs’ data which includes the arrival $(a_{j})$ and departure time $(d_{j})$, the charging length $(l_{j})$, and the charging power $(r_{j})$  into its system
 
-**Step 2**: Load the electricity tariff from the energy service supplier
+<p align="center">$EV_{j}(a_{j},d_{j},l_{j},r_{j})$</p>
 
-**Step 3**: Find the number of possible starting time block
+**Step 2**: After that, the algorithm loads the ToU tariff from the energy service supplier. The tariff should include 24 prices which corresponds to 24 time blocks of a day. For example:
+<p align="center">$tariff = [10, 10, 10, 10, 10, 10, 21, 21, 14, 14, 14, 14, 14, 14, 14, 14, 21, 21, 21, 14, 14, 10, 10, 10]$
+</p>
 
-**Step 4:** Calculate the charging start time and the respective end time
 
-- Start time = arrival + x(i) -1
-- End time = arrival + x(i) -1 + charge length
+**Step 3**: Find the number of possible charging scenarios $(scen_{j})$
+<p align="center">$scen_{j} = (d_{j} - a_{j} - l_{j} + 1) \quad \text{where } d_{j} > a_{j}$</p>
 
-**Step 5:** Retrieve a set of electricity prices that correspond to the charging time blocks between start and end time.
+<p align="center">$scen_{j} = (24 + d_{j} - a_{j} - l_{j} + 1) \quad \text{where } d_{j} < a_{j}$</p>
 
-Note: overnight charging start till 24 + 0 till end.
+If $scen_{j}=1$, the charging process must initiate immediately. If $scen_{j}=2$, the EV can start charging as soon as it arrives or delays by 1 hour.
 
-**Step 6:** Calculate the charging cost of each scenario
+**Step 4:** Calculate the charging cost for each scenario.
+Determine the starting $(st_{j}^{i})$ and respective ending charging time $(et_{j}^{i})$ to retrieve the corresponding tariff set for the charging cost calculation 
 
-**Step 7:** Find the charging starting time that incurred the lowest cost
+$\quad \text{Where } d_{j} > a_{j}:$
+<p align="center">$st_{j}^{i} = a_{j} + i - 1$</p>
+<p align="center">$et_{j}^{i} = a_{j} + i + l_{j} - 1$</p>
+<p align="center">$$cost_{j}^{i} = \sum_{h=st_{j}^{i}+1}^{et_{j}^{i}} r_{j} \times C^{h}$$</p>
 
-**Step 8:** Assign the optimal charging starting time to the vehicle and report the charging cost
+
+$\quad \text{Where } d_{j} < a_{j}:$
+<p align="center">$st_{j}^{i} = a_{j} + i - 1$</p>
+<p align="center">$et_{j}^{i} = a_{j} + i + l_{j} - 1 - 24$</p>
+<p align="center">$$cost_{j}^{i} = \sum_{h=st_{j}^{i}+1}^{24} r_{j} \times C^{h} + \sum_{h=1}^{et_{j}^{i}} r_{j} \times C^{h}$$</p>
+
+**Step 5:** Find the scenario that incurs the minimum charging cost
+<p align="center">$\quad \text{min } cost_{j}^{i}$</p>
+
+**Step 6:** Assign the optimal charging starting time, ending time and report its charging cost
+<p align="center">$opt_{j}^{i} (st_{j}^{i}, et_{j}^{i},\text{min } cost_{j}^{i})$</p>
 
 ### 🚨 Outcome
 
