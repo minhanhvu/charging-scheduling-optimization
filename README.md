@@ -17,12 +17,10 @@ The charging cost is computed based on a _Time-of-Use tariff scheme_, where pric
 </p>
 
 
-**Step 3**: Find the number of possible charging scenarios $(scen_{j})$
+**Step 3**: Find the number of possible charging scenarios $(scen_{j})$. If $scen_{j}=1$, the charging process must initiate immediately. If $scen_{j}=2$, the EV can start charging as soon as it arrives or delays by 1 hour.
 <p align="center">$scen_{j} = (d_{j} - a_{j} - l_{j} + 1) \quad \text{where } d_{j} > a_{j}$</p>
 
 <p align="center">$scen_{j} = (24 + d_{j} - a_{j} - l_{j} + 1) \quad \text{where } d_{j} < a_{j}$</p>
-
-If $scen_{j}=1$, the charging process must initiate immediately. If $scen_{j}=2$, the EV can start charging as soon as it arrives or delays by 1 hour.
 
 **Step 4:** Calculate the charging cost for each scenario.
 Determine the starting $(st_{j}^{i})$ and respective ending charging time $(et_{j}^{i})$ to retrieve the corresponding tariff set for the charging cost calculation 
