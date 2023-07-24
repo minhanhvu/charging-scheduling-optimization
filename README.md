@@ -25,15 +25,21 @@ The charging cost is computed based on a _Time-of-Use tariff scheme_, where pric
 **Step 4:** Calculate the charging cost for each scenario.
 Determine the starting $(st_{j}^{i})$ and respective ending charging time $(et_{j}^{i})$ to retrieve the corresponding tariff set for the charging cost calculation 
 
-$\quad \text{Where } d_{j} > a_{j}:$
+$\quad \text{For i to } scen_{j} :$
 <p align="center">$st_{j}^{i} = a_{j} + i - 1$</p>
-<p align="center">$et_{j}^{i} = a_{j} + i + l_{j} - 1$</p>
+
+<p align="center">$et_{j}^{i} = a_{j} + i - 1 + l_{j} \text{ where } a_{j} + i - 1 + l_{j} <= 24 $</p>
+<p align="center">$et_{j}^{i} = a_{j} + i - 1 + l_{j} - 24 \text{ where } a_{j} + i - 1 + l_{j} >= 24 $</p>
+  
+Calculate the charging cost for each scenario
+
+$\quad \text{For i to } scen_{j} :$
+
+$\quad \text{Where } et_{j}^{i} > st_{j}^{i}:$
+
 <p align="center">$$cost_{j}^{i} = \sum_{h=st_{j}^{i}+1}^{et_{j}^{i}} r_{j} \times C^{h}$$</p>
 
-
-$\quad \text{Where } d_{j} < a_{j}:$
-<p align="center">$st_{j}^{i} = a_{j} + i - 1$</p>
-<p align="center">$et_{j}^{i} = a_{j} + i + l_{j} - 1 - 24$</p>
+$\quad \text{Where } et_{j}^{i} < st_{j}^{i}:$
 <p align="center">$$cost_{j}^{i} = \sum_{h=st_{j}^{i}+1}^{24} r_{j} \times C^{h} + \sum_{h=1}^{et_{j}^{i}} r_{j} \times C^{h}$$</p>
 
 **Step 5:** Find the scenario that incurs the minimum charging cost
