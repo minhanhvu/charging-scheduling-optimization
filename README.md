@@ -55,8 +55,7 @@ $\quad \text{Where } et_{j}^{i} < st_{j}^{i}:$
 </p>
 
 <p align="center"> Figure 1: The assumed price of electricity that captures the load profile of a workplace
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/c2fdae5c-5b4d-448f-b28b-4f1415d85af8
-" width=60% height=60%>
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/c2fdae5c-5b4d-448f-b28b-4f1415d85af8" width=60% height=60%>
 </p>
 
 
@@ -75,6 +74,9 @@ _Overnight charging_
 Likewise, EV4  arrives at the charging station at 7:00 and departs at 6:00 on the next day. The vehicle stays plug-in for 23 hours and requires 10 hours of charging at slow charge mode. The algorithm leverages the flexibility by shifting the charging process to off-peak hours between 19:00 and 05:00 the next morning to reduce the charging cost from 52.2EUR to 30EUR 
 
 ### 💡 Key learnings
+- Handling an end-to-end optimization process, including problem formulation, algorithm development and simulation to test 
+the algorithm’s accuracy and efficiency
+- Programing code: Python
 
 ###  Reference
 [[1]](https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2023-06/2022%20EAFO_CountryReport_DE.pdf) Consumer Monitor 2022, European Alternative Fuels Observatory. Country report: Germany
