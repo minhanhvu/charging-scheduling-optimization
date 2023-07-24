@@ -49,7 +49,30 @@ $\quad \text{Where } et_{j}^{i} < st_{j}^{i}:$
 <p align="center">$opt_{j}^{i} (st_{j}^{i}, et_{j}^{i},\text{min } cost_{j}^{i})$</p>
 
 ### 🚨 Outcome
+#### Simulation setup
+<p align="center"> Table 1: Summary of the simulated EVs’ mobility and charging data.
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/7b29e237-373f-42f1-8c88-ce73815913b4" width=60% height=60%>
+</p>
 
+<p align="center"> Figure 1: The assumed price of electricity that captures the load profile of a workplace
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/c2fdae5c-5b4d-448f-b28b-4f1415d85af8
+" width=60% height=60%>
+</p>
+
+
+
+#### Result Summary
+<p align="center"> Table 2: Cost comparison between controlled and uncontrolled charging
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/d3d33985-96bf-4cec-9964-90696722e8a5" width=60% height=60%>
+</p>
+
+_Same day charging_
+
+In uncoordinated charging, the first vehicle starts charging immediately after it is connected to the charging portal and subsequently occupies the first four time blocks during peak-hours, which are the costliest period in the day. However, since EV1 remains connected to the charging station for a duration longer than necessary for charging, the algorithm schedules the charging to shoulder and off-peak hours. The EV1 begins charging from 17:00 to 21:00 at the charging rate of 3kW to optimize the charging cost at 15EUR, reducing charging expense by roughly 30% compared to that in uncontrolled scenario.
+
+_Overnight charging_
+
+Likewise, EV4  arrives at the charging station at 7:00 and departs at 6:00 on the next day. The vehicle stays plug-in for 23 hours and requires 10 hours of charging at slow charge mode. The algorithm leverages the flexibility by shifting the charging process to off-peak hours between 19:00 and 05:00 the next morning to reduce the charging cost from 52.2EUR to 30EUR 
 
 ### 💡 Key learnings
 
