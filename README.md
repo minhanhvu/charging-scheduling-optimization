@@ -79,4 +79,4 @@ the algorithm’s accuracy and efficiency
 - Programing code: Python
 
 ###  Reference
-[[1]](https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2023-06/2022%20EAFO_CountryReport_DE.pdf) Consumer Monitor 2022, European Alternative Fuels Observatory. Country report: Germany
+[[1]](https://ieeexplore.ieee.org/document/8821960) S. M. S., I. A. T. P. and D. D., "Optimized Charge Scheduling of Plug-In Electric Vehicles using Modified Placement Algorithm," 2019 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2019, pp. 1-5, doi: 10.1109/ICCCI.2019.8821960.
