@@ -84,6 +84,8 @@ Apart from Car 2 and Car 4 that must start immediately upon arrival to meet thei
 <img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/0439bdf5-21d0-4358-bf6a-aa9e54d69c80" width=60% height=60%>
 </p>
 
+#### Evaluation
+
 🎊 The algorithm’s effectiveness is assessed based on two metrics: (1) energy fulfillment rate and (2) the percentage of cost savings compared to charging upon arrival. Briefly, the average fulfillment rate is 94.8%. The entire fleet enjoy a 17.3% decrease in energy cost compared to the unscheduled charging. 
 
 🤓 Unsurprisingly, cars that stay for long hours are the primary beneficiaries of the optimization, as seen in the case of car 1, 3, 5 and 6. Both car 2 and car 4 present no cost savings given that they commence charging upon arrival. However, in contrast to car 2, which does not benefit from the optimization for having potential to delay charging, car 4, in fact, enjoys the lowest energy cost by charging immediately. 
@@ -95,9 +97,10 @@ Apart from Car 2 and Car 4 that must start immediately upon arrival to meet thei
 </p>
 
 ### 💡 Key learnings
-- Handling an end-to-end optimization process, including problem formulation, algorithm development and simulation to test 
-the algorithm’s accuracy and efficiency
-- Programing code: Python
+- This project is a simple form of placement algorithm with an objective function (charging cost minimization), constraint function (charging must be done within parking time), and decision variable (charging starting time). Using Python, I can simulate all feasible solutions and then identify the optimal one. 
+
+- I found this logic quite similar to Monte-Carlo simulation, which is an incredible useful tool in business forecast to understand possible outcomes given there are random factors in the decision model. 
+
 
 ###  Reference
 [[1]](https://ieeexplore.ieee.org/document/8821960) S. M. S., I. A. T. P. and D. D., "Optimized Charge Scheduling of Plug-In Electric Vehicles using Modified Placement Algorithm," 2019 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2019, pp. 1-5, doi: 10.1109/ICCCI.2019.8821960.
