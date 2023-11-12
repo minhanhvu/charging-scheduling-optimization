@@ -2,9 +2,19 @@
 The model suggests the optimal starting time for electric vehicles to minimize the user's charging cost, considering the Time-of-use tariff scheme
 
 ### ⚡Context
-Consider a manager of a residential building that wishes to minimize the cost of energy consumption while still meeting the EV charging demand of the tenants. This algorithm will fulfill that goal by determining the optimal time to initiate charging for each individual EV. 
+#### Problem & Constraint
+A residential building manager grapples with a rising demand for electric car charging. There are two pressing concerns. First, if the cars commence charging immediately and simultaneously at the highest charging speed upon their arrival, it would cause a sudden heightened load and risk the electrical system stability. Second, if they start charging during peak hours, the energy cost would be unnecessarily expensive. 
+So her goal is to devise a charging strategy that minimizes energy costs and alleviates the electrical system burden, with the main constraint being to meet energy demand before car departure.
+#### Settings
+ - Electric price: The electricity prices during high-load phases are generally higher compared to low-load periods. Here, the project addresses the Time-of-Use tariff scheme, where electricity prices vary throughout the day but are predetermined.
+- Charging speed: The charging system is built-in with 3 charging speeds, namely, slow, medium, and fast charging. 
+- Charging behaviors: the vehicles usually stay overnight, hence, they stay longer than the duration needed for charging, which is a typical charging pattern found in residential buildings
+#### Strategy
+The strategy is straightforwards: delay charging to low-cost hours whenever the cars stay longer than the required charging duration 
 
-The charging cost is computed based on a _Time-of-Use tariff scheme_, where prices are predetermined and fixed during a period of time. Typically, the tariffs during high-load phases are generally higher compared to low-load periods. Consequently, delaying charging to low-cost hours helps to shift partial electricity consumption to off-peak periods, which _**not only provides economic advantages but also contributes to the stability of grid operations.**_
+To achieve that, the algorithm is designed to follow two key principles regarding the selection of charging speed and charging time. (1) Prioritize slower charge rate whenever feasible to reduce unnecessary pressure on the power grid and then (2) start the charging session at the first interval of the scenario that incurs the minimum cost. If the charging request cannot be fully satisfied within the time limit despite applying the highest charging speed, the algorithm will notify the vehicle's user.
+
+This strategy_**not only provides economic advantages but also contributes to the stability of grid operations.**_
 
 ### 🔌 Process
 
@@ -50,6 +60,14 @@ $\quad \text{Where } et_{j}^{i} < st_{j}^{i}:$
 
 ### 🚨 Outcome
 #### Simulation setup
+We evaluate the performance of the algorithm using a set of 6 simulated charging requirements (table below). System build-in charging rate include slow (3kW), medium (7kW), and fast charging (11kW). The charging process is assumed to be uninterrupted at a constant charge rate. 
+
+![image](https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/893f3cdc-5cc0-4349-9748-ceef609381c0)
+
+
+
+![image](https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/5039b105-3db2-40d6-81f2-340d307e25e3)
+
 <p align="center"> Table 1: Summary of the simulated EVs’ mobility and charging data.
 <img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/7b29e237-373f-42f1-8c88-ce73815913b4" width=60% height=60%>
 </p>
