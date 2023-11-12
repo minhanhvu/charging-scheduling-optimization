@@ -67,7 +67,7 @@ We evaluate the performance of the algorithm using a set of 6 simulated charging
 </p>
 
 <p align="center"> Figure 1: The assumed price of electricity that captures the load profile of a workplace
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/c2fdae5c-5b4d-448f-b28b-4f1415d85af8" width=60% height=60%>
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/bccb6aa6-7e31-4222-925d-26ab64c11e46" width=60% height=60%>
 </p>
 
 
