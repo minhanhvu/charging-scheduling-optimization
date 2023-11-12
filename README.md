@@ -60,7 +60,7 @@ $\quad \text{Where } et_{j}^{i} < st_{j}^{i}:$
 
 
 <p align="center"> Chart 1: Step-by-step procedure of the algorithm.
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=60% height=60%>
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=50% height=50%>
 </p>
 
 ### 🚨 Outcome
