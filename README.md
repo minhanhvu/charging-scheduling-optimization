@@ -58,11 +58,6 @@ $\quad \text{Where } et_{j}^{i} < st_{j}^{i}:$
 **Step 6:** Assign the optimal charging starting time, ending time and report its charging cost
 <p align="center">$opt_{j}^{i} (st_{j}^{i}, et_{j}^{i},\text{min } cost_{j}^{i})$</p>
 
-
-<p align="center"> Chart 1: Step-by-step procedure of the algorithm.
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=50% height=50%>
-</p>
-
 ### 🚨 Outcome
 #### Simulation setup
 We evaluate the performance of the algorithm using a set of 6 simulated charging requirements (table below). System build-in charging rate include slow (3kW), medium (7kW), and fast charging (11kW). The charging process is assumed to be uninterrupted at a constant charge rate. 
