@@ -18,12 +18,9 @@ This strategy_**not only provides economic advantages but also contributes to th
 
 ### 🔌 Process
 <p align="center"> Chart 1: Step-by-step procedure of the algorithm.
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=50% height=50%>
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=30% height=30%>
 </p>
 
-<p align="center"> Chart 1: Step-by-step procedure of the algorithm.
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=60% height=60%>
-</p>
 
 **Step 1**: The charging control process starts by loading EVs’ data which includes the arrival $(a_{j})$ and departure time $(d_{j})$, the charging length $(l_{j})$, and the charging power $(r_{j})$  into its system
 
