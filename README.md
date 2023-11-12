@@ -62,8 +62,6 @@ $\quad \text{Where } et_{j}^{i} < st_{j}^{i}:$
 #### Simulation setup
 We evaluate the performance of the algorithm using a set of 6 simulated charging requirements (table below). System build-in charging rate include slow (3kW), medium (7kW), and fast charging (11kW). The charging process is assumed to be uninterrupted at a constant charge rate. 
 
-![image](https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/5039b105-3db2-40d6-81f2-340d307e25e3)
-
 <p align="center"> Table 1: Summary of the simulated EVs’ mobility and charging data.
 <img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/893f3cdc-5cc0-4349-9748-ceef609381c0" width=60% height=60%>
 </p>
