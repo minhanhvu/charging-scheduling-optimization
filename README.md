@@ -9,6 +9,7 @@ So her goal is to devise a charging strategy that minimizes energy costs and all
 * **Electricity prices:**** The electricity prices during high-load phases are generally higher compared to low-load periods. Here, the project addresses the Time-of-Use tariff scheme, where electricity prices vary throughout the day but are predetermined.
 * **Charging speed**:The charging system is built-in with 3 charging speeds, namely, slow, medium, and fast charging.
 * **Charging behaviors:** The vehicles stay longer than the duration needed for charging, which is a typical charging pattern found in residential or workplace buildings
+  
 #### Strategy
 The strategy is straightforwards: delay charging to low-cost hours whenever the cars stay longer than the required charging duration 
 
@@ -76,17 +77,13 @@ We evaluate the performance of the algorithm using a set of 6 simulated charging
 
 
 #### Result Summary
+
+Apart from Car 2 and Car 4 that must start immediately upon arrival to meet their energy demand, the remaining cars are scheduled to start charging 3 to 5 hours after arrival, leveraging favorable electricity prices during shoulder and off-peak periods. Charging costs are depicted by the areas underneath the green and red outlines. We can easily see that the green areas are either smaller or overlap the red ones, which proves the cost-effective aspect of the optimized algorithm.
+
 <p align="center"> Table 2: Cost comparison between controlled and uncontrolled charging
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/d3d33985-96bf-4cec-9964-90696722e8a5" width=60% height=60%>
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/0439bdf5-21d0-4358-bf6a-aa9e54d69c80" width=60% height=60%>
 </p>
 
-_Same day charging_
-
-In uncoordinated charging, the first vehicle starts charging immediately after it is connected to the charging portal and subsequently occupies the first four time blocks during peak-hours, which are the costliest period in the day. However, since EV1 remains connected to the charging station for a duration longer than necessary for charging, the algorithm schedules the charging to shoulder and off-peak hours. The EV1 begins charging from 17:00 to 21:00 at the charging rate of 3kW to optimize the charging cost at 15EUR, reducing charging expense by roughly 30% compared to that in uncontrolled scenario.
-
-_Overnight charging_
-
-Likewise, EV4  arrives at the charging station at 7:00 and departs at 6:00 on the next day. The vehicle stays plug-in for 23 hours and requires 10 hours of charging at slow charge mode. The algorithm leverages the flexibility by shifting the charging process to off-peak hours between 19:00 and 05:00 the next morning to reduce the charging cost from 52.2EUR to 30EUR 
 
 ### 💡 Key learnings
 - Handling an end-to-end optimization process, including problem formulation, algorithm development and simulation to test 
