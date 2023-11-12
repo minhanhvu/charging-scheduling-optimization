@@ -3,7 +3,7 @@ The model suggests the optimal starting time for electric vehicles to minimize t
 
 ### ⚡Context
 #### Problem & Constraint
-A residential building manager grapples with a rising demand for electric car charging. There are two pressing concerns. First, if the cars commence charging immediately and simultaneously at the highest charging speed upon their arrival, it would cause a sudden heightened load and risk the electrical system stability. Second, if they start charging during peak hours, the energy cost would be unnecessarily expensive. 
+A workplace building manager grapples with a rising demand for electric car charging. There are two pressing concerns. First, if the cars commence charging immediately and simultaneously at the highest charging speed upon their arrival, it would cause a sudden heightened load and risk the electrical system stability. Second, if they start charging during peak hours, the energy cost would be unnecessarily expensive. 
 So her goal is to devise a charging strategy that minimizes energy costs and alleviates the electrical system burden, with the main constraint being to meet energy demand before car departure.
 #### Settings
  - Electric price: The electricity prices during high-load phases are generally higher compared to low-load periods. Here, the project addresses the Time-of-Use tariff scheme, where electricity prices vary throughout the day but are predetermined.
@@ -58,6 +58,11 @@ $\quad \text{Where } et_{j}^{i} < st_{j}^{i}:$
 **Step 6:** Assign the optimal charging starting time, ending time and report its charging cost
 <p align="center">$opt_{j}^{i} (st_{j}^{i}, et_{j}^{i},\text{min } cost_{j}^{i})$</p>
 
+
+<p align="center"> Chart 1: Step-by-step procedure of the algorithm.
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=60% height=60%>
+</p>
+
 ### 🚨 Outcome
 #### Simulation setup
 We evaluate the performance of the algorithm using a set of 6 simulated charging requirements (table below). System build-in charging rate include slow (3kW), medium (7kW), and fast charging (11kW). The charging process is assumed to be uninterrupted at a constant charge rate. 
@@ -69,7 +74,6 @@ We evaluate the performance of the algorithm using a set of 6 simulated charging
 <p align="center"> Figure 1: The assumed price of electricity that captures the load profile of a workplace
 <img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/bccb6aa6-7e31-4222-925d-26ab64c11e46" width=60% height=60%>
 </p>
-
 
 
 #### Result Summary
