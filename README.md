@@ -80,10 +80,17 @@ We evaluate the performance of the algorithm using a set of 6 simulated charging
 
 Apart from Car 2 and Car 4 that must start immediately upon arrival to meet their energy demand, the remaining cars are scheduled to start charging 3 to 5 hours after arrival, leveraging favorable electricity prices during shoulder and off-peak periods. Charging costs are depicted by the areas underneath the green and red outlines. We can easily see that the green areas are either smaller or overlap the red ones, which proves the cost-effective aspect of the optimized algorithm.
 
-<p align="center"> Table 2: Cost comparison between controlled and uncontrolled charging
+<p align="center">
 <img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/0439bdf5-21d0-4358-bf6a-aa9e54d69c80" width=60% height=60%>
 </p>
 
+🎊 The algorithm’s effectiveness is assessed based on two metrics: (1) energy fulfillment rate and (2) the percentage of cost savings compared to charging upon arrival. Briefly, the average fulfillment rate is 94.8%. The entire fleet enjoy a 17.3% decrease in energy cost compared to the unscheduled charging. 
+🤓 Unsurprisingly, cars that stay for long hours are the primary beneficiaries of the optimization, as seen in the case of car 1, 3, 5 and 6. Both car 2 and car 4 present no cost savings given that they commence charging upon arrival. However, in contrast to car 2, which does not benefit from the optimization for having potential to delay charging, car 4, in fact, enjoys the lowest energy cost by charging immediately. 
+⁉️Now, you may question why car 2 and car 4 don’t hit a 100% of fulfillment rate. This is due to one of the two reasons: (1) Users request exceptionally high energy demand with respect to their stay, which is the case of car 2 or (2) Continuing the session into the next interval could violate the time constraint as in car 4’s instance. In the first case, the algorithm will notify the driver. The second case can be mitigated by implementing shorter charging interval.
+
+<p align="center">
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/66164332-575e-48df-94de-5b1115a5bfc1" width=60% height=60%>
+</p>
 
 ### 💡 Key learnings
 - Handling an end-to-end optimization process, including problem formulation, algorithm development and simulation to test 
