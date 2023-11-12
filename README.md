@@ -17,8 +17,8 @@ To achieve that, the algorithm is designed to follow two key principles regardin
 This strategy_**not only provides economic advantages but also contributes to the stability of grid operations.**_
 
 ### 🔌 Process
-<p align="center"> Chart 1: Step-by-step procedure of the algorithm.
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=30% height=30%>
+<p align="center"> 
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=40% height=40%>
 </p>
 
 
