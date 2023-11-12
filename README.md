@@ -85,8 +85,10 @@ Apart from Car 2 and Car 4 that must start immediately upon arrival to meet thei
 </p>
 
 🎊 The algorithm’s effectiveness is assessed based on two metrics: (1) energy fulfillment rate and (2) the percentage of cost savings compared to charging upon arrival. Briefly, the average fulfillment rate is 94.8%. The entire fleet enjoy a 17.3% decrease in energy cost compared to the unscheduled charging. 
+
 🤓 Unsurprisingly, cars that stay for long hours are the primary beneficiaries of the optimization, as seen in the case of car 1, 3, 5 and 6. Both car 2 and car 4 present no cost savings given that they commence charging upon arrival. However, in contrast to car 2, which does not benefit from the optimization for having potential to delay charging, car 4, in fact, enjoys the lowest energy cost by charging immediately. 
-⁉️Now, you may question why car 2 and car 4 don’t hit a 100% of fulfillment rate. This is due to one of the two reasons: (1) Users request exceptionally high energy demand with respect to their stay, which is the case of car 2 or (2) Continuing the session into the next interval could violate the time constraint as in car 4’s instance. In the first case, the algorithm will notify the driver. The second case can be mitigated by implementing shorter charging interval.
+
+⁉️ Now, you may question why car 2 and car 4 don’t hit a 100% of fulfillment rate. This is due to one of the two reasons: (1) Users request exceptionally high energy demand with respect to their stay, which is the case of car 2 or (2) Continuing the session into the next interval could violate the time constraint as in car 4’s instance. In the first case, the algorithm will notify the driver. The second case can be mitigated by implementing shorter charging interval.
 
 <p align="center">
 <img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/66164332-575e-48df-94de-5b1115a5bfc1" width=60% height=60%>
