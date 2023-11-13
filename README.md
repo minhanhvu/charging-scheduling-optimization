@@ -1,5 +1,5 @@
 # Charging-Scheduling-Optimization
-The model suggests the optimal starting time for electric vehicles to minimize the user's charging cost, considering the Time-of-use tariff scheme
+The model suggests the optimal charging starting time and charging speed for e-cars to minimize the user's charging cost, considering the predetermined electricity pricing scheme
 
 ### ⚡Context
 #### Problem & Constraint
