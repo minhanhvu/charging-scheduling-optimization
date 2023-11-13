@@ -9,7 +9,7 @@ So her goal is to devise a charging strategy that minimizes energy costs and all
 #### Settings
 * **Electricity prices:**** The electricity prices during high-load phases are generally higher compared to low-load periods. Here, the project addresses the Time-of-Use tariff scheme, where electricity prices vary throughout the day but are predetermined.
 * **Charging speed**:The charging system is built-in with 3 charging speeds, namely, slow, medium, and fast charging.
-* **Charging behaviors:** The vehicles stay longer than the duration needed for charging, which is a typical charging pattern found in residential or workplace buildings
+* **Charging behaviors:** The vehicles can stay longer than the duration needed for charging, which is a typical charging pattern found in residential or workplace buildings
   
 #### Strategy
 The strategy is straightforwards: delay charging to low-cost hours whenever the cars stay longer than the required charging duration 
