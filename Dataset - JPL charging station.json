@@ -1,0 +1,2743 @@
+{
+  "_meta":
+    {
+      "end": "Sat, 29 Dec 2018 20:00:00 GMT",
+      "min_kWh": 3,
+      "site": "jpl",
+      "start": "Wed, 26 Dec 2018 08:00:00 GMT"
+    },
+  "_items": [
+    {
+      "_id": "5c3671a9f9af8b4639a8f2ed",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 11:53:41 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 21:31:39 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 14:35:34 GMT",
+      "kWhDelivered": 9.302,
+      "sessionID": "1_1_178_828_2018-12-26 11:53:40.735531",
+      "siteID": "0001",
+      "spaceID": "AG-1F10",
+      "stationID": "1-1-178-828",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000467",
+      "userInputs": [
+        {
+          "WhPerMile": 425,
+          "kWhRequested": 17.0,
+          "milesRequested": 40,
+          "minutesAvailable": 310,
+          "modifiedAt": "Wed, 26 Dec 2018 11:54:15 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 17:03:41 GMT",
+          "userID": 467
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2ee",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 13:51:29 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:18:59 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 15:52:00 GMT",
+      "kWhDelivered": 5.956,
+      "sessionID": "1_1_191_789_2018-12-26 13:51:29.414436",
+      "siteID": "0001",
+      "spaceID": "AG-4F52",
+      "stationID": "1-1-191-789",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000483",
+      "userInputs": [
+        {
+          "WhPerMile": 350,
+          "kWhRequested": 10.15,
+          "milesRequested": 29,
+          "minutesAvailable": 435,
+          "modifiedAt": "Wed, 26 Dec 2018 13:51:36 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 21:06:29 GMT",
+          "userID": 483
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2ef",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 14:10:48 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 21:51:40 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 18:06:12 GMT",
+      "kWhDelivered": 12.055,
+      "sessionID": "1_1_194_822_2018-12-26 14:10:47.897949",
+      "siteID": "0001",
+      "spaceID": "AG-1F12",
+      "stationID": "1-1-194-822",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000651",
+      "userInputs": [
+        {
+          "WhPerMile": 500,
+          "kWhRequested": 20.0,
+          "milesRequested": 40,
+          "minutesAvailable": 176,
+          "modifiedAt": "Wed, 26 Dec 2018 14:10:51 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 17:06:48 GMT",
+          "userID": 651
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f1",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 14:25:41 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 23:56:50 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 19:16:14 GMT",
+      "kWhDelivered": 15.232,
+      "sessionID": "1_1_178_817_2018-12-26 14:25:41.495406",
+      "siteID": "0001",
+      "spaceID": "AG-1F09",
+      "stationID": "1-1-178-817",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000322",
+      "userInputs": [
+        {
+          "WhPerMile": 313,
+          "kWhRequested": 18.78,
+          "milesRequested": 60,
+          "minutesAvailable": 92,
+          "modifiedAt": "Wed, 26 Dec 2018 14:26:05 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 15:57:41 GMT",
+          "userID": 322
+        },
+        {
+          "WhPerMile": 313,
+          "kWhRequested": 18.78,
+          "milesRequested": 60,
+          "minutesAvailable": 357,
+          "modifiedAt": "Wed, 26 Dec 2018 14:26:20 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 20:22:41 GMT",
+          "userID": 322
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f2",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 14:26:48 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:08:23 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 00:03:43 GMT",
+      "kWhDelivered": 7.324,
+      "sessionID": "1_1_193_827_2018-12-26 14:26:48.136593",
+      "siteID": "0001",
+      "spaceID": "AG-1F02",
+      "stationID": "1-1-193-827",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000344",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 12.0,
+          "milesRequested": 30,
+          "minutesAvailable": 302,
+          "modifiedAt": "Wed, 26 Dec 2018 14:27:52 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 19:28:48 GMT",
+          "userID": 344
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f3",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 14:31:21 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 22:39:16 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 17:31:02 GMT",
+      "kWhDelivered": 9.014,
+      "sessionID": "1_1_193_820_2018-12-26 14:31:21.186012",
+      "siteID": "0001",
+      "spaceID": "AG-1F04",
+      "stationID": "1-1-193-820",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000169",
+      "userInputs": [
+        {
+          "WhPerMile": 600,
+          "kWhRequested": 24.0,
+          "milesRequested": 40,
+          "minutesAvailable": 414,
+          "modifiedAt": "Wed, 26 Dec 2018 14:32:01 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 21:25:21 GMT",
+          "userID": 169
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f4",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 14:47:49 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:05:02 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 19:47:57 GMT",
+      "kWhDelivered": 31.367,
+      "sessionID": "1_1_179_799_2018-12-26 14:47:48.575664",
+      "siteID": "0001",
+      "spaceID": "AG-3F25",
+      "stationID": "1-1-179-799",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001157",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 40.0,
+          "milesRequested": 100,
+          "minutesAvailable": 541,
+          "modifiedAt": "Wed, 26 Dec 2018 14:48:16 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 23:48:49 GMT",
+          "userID": 1157
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f5",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 14:51:11 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:23:23 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 00:23:10 GMT",
+      "kWhDelivered": 58.41,
+      "sessionID": "1_1_193_825_2018-12-26 14:51:11.205927",
+      "siteID": "0001",
+      "spaceID": "AG-1F01",
+      "stationID": "1-1-193-825",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001283",
+      "userInputs": [
+        {
+          "WhPerMile": 350,
+          "kWhRequested": 63.0,
+          "milesRequested": 180,
+          "minutesAvailable": 575,
+          "modifiedAt": "Wed, 26 Dec 2018 14:52:12 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 00:26:11 GMT",
+          "userID": 1283
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f6",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 14:53:26 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 01:01:45 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 18:44:53 GMT",
+      "kWhDelivered": 11.781,
+      "sessionID": "1_1_178_823_2018-12-26 14:53:26.120138",
+      "siteID": "0001",
+      "spaceID": "AG-1F08",
+      "stationID": "1-1-178-823",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000414",
+      "userInputs": [
+        {
+          "WhPerMile": 375,
+          "kWhRequested": 15.0,
+          "milesRequested": 40,
+          "minutesAvailable": 552,
+          "modifiedAt": "Wed, 26 Dec 2018 14:54:33 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 00:05:26 GMT",
+          "userID": 414
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f7",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 14:57:15 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:17:44 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 00:17:40 GMT",
+      "kWhDelivered": 33.889,
+      "sessionID": "1_1_179_797_2018-12-26 14:57:14.595697",
+      "siteID": "0001",
+      "spaceID": "AG-3F23",
+      "stationID": "1-1-179-797",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000194",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 45.0,
+          "milesRequested": 180,
+          "minutesAvailable": 435,
+          "modifiedAt": "Wed, 26 Dec 2018 14:57:35 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 22:12:15 GMT",
+          "userID": 194
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f8",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 15:11:09 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 23:39:34 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 20:48:35 GMT",
+      "kWhDelivered": 15.925,
+      "sessionID": "1_1_193_819_2018-12-26 15:11:08.987806",
+      "siteID": "0001",
+      "spaceID": "AG-1F06",
+      "stationID": "1-1-193-819",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000476",
+      "userInputs": [
+        {
+          "WhPerMile": 333,
+          "kWhRequested": 16.65,
+          "milesRequested": 50,
+          "minutesAvailable": 200,
+          "modifiedAt": "Wed, 26 Dec 2018 15:11:37 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 18:31:09 GMT",
+          "userID": 476
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2f9",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 15:21:58 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 19:40:48 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 19:40:39 GMT",
+      "kWhDelivered": 26.711,
+      "sessionID": "1_1_179_800_2018-12-26 15:21:57.782568",
+      "siteID": "0001",
+      "spaceID": "AG-3F32",
+      "stationID": "1-1-179-800",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001528",
+      "userInputs": [
+        {
+          "WhPerMile": 300,
+          "kWhRequested": 45.0,
+          "milesRequested": 150,
+          "minutesAvailable": 519,
+          "modifiedAt": "Wed, 26 Dec 2018 15:23:27 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 00:00:58 GMT",
+          "userID": 1528
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2fa",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 15:42:47 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 01:12:28 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 19:52:05 GMT",
+      "kWhDelivered": 24.876,
+      "sessionID": "1_1_179_815_2018-12-26 15:42:46.771916",
+      "siteID": "0001",
+      "spaceID": "AG-3F33",
+      "stationID": "1-1-179-815",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000537",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 25.0,
+          "milesRequested": 100,
+          "minutesAvailable": 252,
+          "modifiedAt": "Wed, 26 Dec 2018 15:43:19 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 19:54:47 GMT",
+          "userID": 537
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2fb",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 15:55:09 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 23:47:19 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 20:29:49 GMT",
+      "kWhDelivered": 27.154,
+      "sessionID": "1_1_179_783_2018-12-26 15:55:09.460630",
+      "siteID": "0001",
+      "spaceID": "AG-3F29",
+      "stationID": "1-1-179-783",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000481",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 75.2,
+          "milesRequested": 188,
+          "minutesAvailable": 717,
+          "modifiedAt": "Wed, 26 Dec 2018 15:55:43 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 03:52:09 GMT",
+          "userID": 481
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2fc",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 16:04:51 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 18:54:42 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 18:20:00 GMT",
+      "kWhDelivered": 12.468,
+      "sessionID": "1_1_179_781_2018-12-26 16:04:51.253366",
+      "siteID": "0001",
+      "spaceID": "AG-3F31",
+      "stationID": "1-1-179-781",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000522",
+      "userInputs": [
+        {
+          "WhPerMile": 500,
+          "kWhRequested": 15.0,
+          "milesRequested": 30,
+          "minutesAvailable": 179,
+          "modifiedAt": "Wed, 26 Dec 2018 16:05:21 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 19:03:51 GMT",
+          "userID": 522
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2fd",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 16:08:56 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:54:37 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 17:42:43 GMT",
+      "kWhDelivered": 8.122,
+      "sessionID": "1_1_191_785_2018-12-26 16:08:56.199030",
+      "siteID": "0001",
+      "spaceID": "AG-4F48",
+      "stationID": "1-1-191-785",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000592",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 40.0,
+          "milesRequested": 100,
+          "minutesAvailable": 466,
+          "modifiedAt": "Wed, 26 Dec 2018 16:09:25 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 23:54:56 GMT",
+          "userID": 592
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2fe",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 16:28:55 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 22:33:57 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 22:33:52 GMT",
+      "kWhDelivered": 13.435,
+      "sessionID": "1_1_178_824_2018-12-26 16:28:54.725184",
+      "siteID": "0001",
+      "spaceID": "AG-1F07",
+      "stationID": "1-1-178-824",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000357",
+      "userInputs": [
+        {
+          "WhPerMile": 354,
+          "kWhRequested": 14.16,
+          "milesRequested": 40,
+          "minutesAvailable": 356,
+          "modifiedAt": "Wed, 26 Dec 2018 16:28:58 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 22:24:55 GMT",
+          "userID": 357
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f2ff",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 16:49:04 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:46:01 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 00:45:53 GMT",
+      "kWhDelivered": 46.655,
+      "sessionID": "1_1_194_818_2018-12-26 16:49:04.189072",
+      "siteID": "0001",
+      "spaceID": "AG-1F14",
+      "stationID": "1-1-194-818",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000888",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 50.0,
+          "milesRequested": 200,
+          "minutesAvailable": 495,
+          "modifiedAt": "Wed, 26 Dec 2018 16:49:50 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 01:04:04 GMT",
+          "userID": 888
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f300",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 17:04:40 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:23:16 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 00:17:25 GMT",
+      "kWhDelivered": 41.367,
+      "sessionID": "1_1_179_809_2018-12-26 17:04:40.379423",
+      "siteID": "0001",
+      "spaceID": "AG-3F27",
+      "stationID": "1-1-179-809",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000826",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 50.0,
+          "milesRequested": 200,
+          "minutesAvailable": 497,
+          "modifiedAt": "Wed, 26 Dec 2018 17:04:52 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 01:21:40 GMT",
+          "userID": 826
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f301",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 17:14:31 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 01:00:22 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 21:01:09 GMT",
+      "kWhDelivered": 22.706,
+      "sessionID": "1_1_179_798_2018-12-26 17:14:30.682182",
+      "siteID": "0001",
+      "spaceID": "AG-3F18",
+      "stationID": "1-1-179-798",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000364",
+      "userInputs": [
+        {
+          "WhPerMile": 235,
+          "kWhRequested": 35.25,
+          "milesRequested": 150,
+          "minutesAvailable": 482,
+          "modifiedAt": "Wed, 26 Dec 2018 17:15:12 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 01:16:31 GMT",
+          "userID": 364
+        },
+        {
+          "WhPerMile": 235,
+          "kWhRequested": 35.25,
+          "milesRequested": 150,
+          "minutesAvailable": 482,
+          "modifiedAt": "Wed, 26 Dec 2018 17:15:23 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 01:16:31 GMT",
+          "userID": 364
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f302",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 17:45:07 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 01:48:58 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 20:18:40 GMT",
+      "kWhDelivered": 7.378,
+      "sessionID": "1_1_191_795_2018-12-26 17:45:06.908931",
+      "siteID": "0001",
+      "spaceID": "AG-4F51",
+      "stationID": "1-1-191-795",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000410",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 7.5,
+          "milesRequested": 30,
+          "minutesAvailable": 498,
+          "modifiedAt": "Wed, 26 Dec 2018 17:47:46 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 02:03:07 GMT",
+          "userID": 410
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f303",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 17:56:52 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 21:49:34 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 21:12:39 GMT",
+      "kWhDelivered": 13.812,
+      "sessionID": "1_1_179_813_2018-12-26 17:56:52.177660",
+      "siteID": "0001",
+      "spaceID": "AG-3F15",
+      "stationID": "1-1-179-813",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000420",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 24.0,
+          "milesRequested": 60,
+          "minutesAvailable": 339,
+          "modifiedAt": "Wed, 26 Dec 2018 17:57:08 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 23:35:52 GMT",
+          "userID": 420
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f304",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 18:20:51 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 01:20:36 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 23:44:18 GMT",
+      "kWhDelivered": 14.873,
+      "sessionID": "1_1_193_816_2018-12-26 18:20:51.021391",
+      "siteID": "0001",
+      "spaceID": "AG-1F05",
+      "stationID": "1-1-193-816",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000449",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 27.5,
+          "milesRequested": 110,
+          "minutesAvailable": 359,
+          "modifiedAt": "Wed, 26 Dec 2018 18:21:13 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 00:19:51 GMT",
+          "userID": 449
+        },
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 15.0,
+          "milesRequested": 60,
+          "minutesAvailable": 359,
+          "modifiedAt": "Wed, 26 Dec 2018 18:21:40 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 00:19:51 GMT",
+          "userID": 449
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f305",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 18:41:45 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 01:05:22 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 23:44:23 GMT",
+      "kWhDelivered": 15.015,
+      "sessionID": "1_1_194_821_2018-12-26 18:41:44.616526",
+      "siteID": "0001",
+      "spaceID": "AG-1F13",
+      "stationID": "1-1-194-821",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000335",
+      "userInputs": [
+        {
+          "WhPerMile": 275,
+          "kWhRequested": 15.125,
+          "milesRequested": 55,
+          "minutesAvailable": 476,
+          "modifiedAt": "Wed, 26 Dec 2018 18:41:56 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 02:37:45 GMT",
+          "userID": 335
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f306",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 18:47:51 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:26:13 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 23:09:22 GMT",
+      "kWhDelivered": 7.905,
+      "sessionID": "1_1_194_826_2018-12-26 18:47:50.573700",
+      "siteID": "0001",
+      "spaceID": "AG-1F11",
+      "stationID": "1-1-194-826",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000400",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 8.0,
+          "milesRequested": 20,
+          "minutesAvailable": 378,
+          "modifiedAt": "Wed, 26 Dec 2018 18:49:33 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 01:05:51 GMT",
+          "userID": 400
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f308",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 18:59:01 GMT",
+      "disconnectTime": "Wed, 26 Dec 2018 21:51:05 GMT",
+      "doneChargingTime": "Wed, 26 Dec 2018 21:00:38 GMT",
+      "kWhDelivered": 4.415,
+      "sessionID": "1_1_193_829_2018-12-26 18:59:00.755841",
+      "siteID": "0001",
+      "spaceID": "AG-1F03",
+      "stationID": "1-1-193-829",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000425",
+      "userInputs": [
+        {
+          "WhPerMile": 300,
+          "kWhRequested": 6.0,
+          "milesRequested": 20,
+          "minutesAvailable": 86,
+          "modifiedAt": "Wed, 26 Dec 2018 18:59:51 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 20:25:01 GMT",
+          "userID": 425
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f30a",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 21:56:05 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 02:08:57 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 00:30:41 GMT",
+      "kWhDelivered": 7.43,
+      "sessionID": "1_1_193_829_2018-12-26 21:56:04.893500",
+      "siteID": "0001",
+      "spaceID": "AG-1F03",
+      "stationID": "1-1-193-829",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000345",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 20.0,
+          "milesRequested": 50,
+          "minutesAvailable": 226,
+          "modifiedAt": "Wed, 26 Dec 2018 21:56:16 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 01:42:05 GMT",
+          "userID": 345
+        },
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 20.0,
+          "milesRequested": 50,
+          "minutesAvailable": 140,
+          "modifiedAt": "Wed, 26 Dec 2018 21:58:28 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 00:16:05 GMT",
+          "userID": 345
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f30b",
+      "clusterID": "0001",
+      "connectionTime": "Wed, 26 Dec 2018 21:59:30 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 00:35:48 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 00:35:43 GMT",
+      "kWhDelivered": 12.565,
+      "sessionID": "1_1_194_822_2018-12-26 21:59:30.355797",
+      "siteID": "0001",
+      "spaceID": "AG-1F12",
+      "stationID": "1-1-194-822",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000741",
+      "userInputs": [
+        {
+          "WhPerMile": 296,
+          "kWhRequested": 35.52,
+          "milesRequested": 120,
+          "minutesAvailable": 101,
+          "modifiedAt": "Wed, 26 Dec 2018 22:00:41 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Wed, 26 Dec 2018 23:40:30 GMT",
+          "userID": 741
+        },
+        {
+          "WhPerMile": 296,
+          "kWhRequested": 50.32,
+          "milesRequested": 170,
+          "minutesAvailable": 172,
+          "modifiedAt": "Wed, 26 Dec 2018 22:02:43 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 00:51:30 GMT",
+          "userID": 741
+        },
+        {
+          "WhPerMile": 296,
+          "kWhRequested": 50.32,
+          "milesRequested": 170,
+          "minutesAvailable": 123,
+          "modifiedAt": "Wed, 26 Dec 2018 22:15:32 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 00:02:30 GMT",
+          "userID": 741
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f30c",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 00:37:53 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 02:29:48 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 02:24:48 GMT",
+      "kWhDelivered": 5.454,
+      "sessionID": "1_1_193_819_2018-12-27 00:37:53.154350",
+      "siteID": "0001",
+      "spaceID": "AG-1F06",
+      "stationID": "1-1-193-819",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000405",
+      "userInputs": [
+        {
+          "WhPerMile": 500,
+          "kWhRequested": 10.0,
+          "milesRequested": 20,
+          "minutesAvailable": 194,
+          "modifiedAt": "Thu, 27 Dec 2018 00:38:11 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 03:51:53 GMT",
+          "userID": 405
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f30d",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 01:45:49 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 03:44:14 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 03:44:09 GMT",
+      "kWhDelivered": 10.171,
+      "sessionID": "1_1_179_787_2018-12-27 01:45:49.440678",
+      "siteID": "0001",
+      "spaceID": "AG-3F16",
+      "stationID": "1-1-179-787",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000420",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 24.0,
+          "milesRequested": 60,
+          "minutesAvailable": 193,
+          "modifiedAt": "Thu, 27 Dec 2018 01:46:06 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 04:58:49 GMT",
+          "userID": 420
+        }
+      ]
+    },
+    {
+      "_id": "5c3671a9f9af8b4639a8f30e",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 02:11:49 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 03:46:40 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 03:46:36 GMT",
+      "kWhDelivered": 4.109,
+      "sessionID": "1_1_178_823_2018-12-27 02:11:49.441387",
+      "siteID": "0001",
+      "spaceID": "AG-1F08",
+      "stationID": "1-1-178-823",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000766",
+      "userInputs": [
+        {
+          "WhPerMile": 278,
+          "kWhRequested": 25.02,
+          "milesRequested": 90,
+          "minutesAvailable": 84,
+          "modifiedAt": "Thu, 27 Dec 2018 02:12:14 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 03:35:49 GMT",
+          "userID": 766
+        },
+        {
+          "WhPerMile": 278,
+          "kWhRequested": 25.02,
+          "milesRequested": 90,
+          "minutesAvailable": 105,
+          "modifiedAt": "Thu, 27 Dec 2018 02:12:28 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 03:56:49 GMT",
+          "userID": 766
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f310",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 11:57:06 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 21:33:48 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 14:46:04 GMT",
+      "kWhDelivered": 9.502,
+      "sessionID": "1_1_178_828_2018-12-27 11:57:05.563297",
+      "siteID": "0001",
+      "spaceID": "AG-1F10",
+      "stationID": "1-1-178-828",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000467",
+      "userInputs": [
+        {
+          "WhPerMile": 425,
+          "kWhRequested": 17.0,
+          "milesRequested": 40,
+          "minutesAvailable": 310,
+          "modifiedAt": "Thu, 27 Dec 2018 11:57:13 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 17:07:06 GMT",
+          "userID": 467
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f311",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 13:19:15 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:12:19 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 01:12:15 GMT",
+      "kWhDelivered": 9.687,
+      "sessionID": "1_1_193_829_2018-12-27 13:19:14.794949",
+      "siteID": "0001",
+      "spaceID": "AG-1F03",
+      "stationID": "1-1-193-829",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000194",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 17.5,
+          "milesRequested": 70,
+          "minutesAvailable": 260,
+          "modifiedAt": "Thu, 27 Dec 2018 13:19:46 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 17:39:15 GMT",
+          "userID": 194
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f312",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 13:48:33 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 22:09:56 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 17:48:32 GMT",
+      "kWhDelivered": 12.113,
+      "sessionID": "1_1_194_821_2018-12-27 13:48:32.995716",
+      "siteID": "0001",
+      "spaceID": "AG-1F13",
+      "stationID": "1-1-194-821",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000651",
+      "userInputs": [
+        {
+          "WhPerMile": 500,
+          "kWhRequested": 20.0,
+          "milesRequested": 40,
+          "minutesAvailable": 176,
+          "modifiedAt": "Thu, 27 Dec 2018 13:48:34 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 16:44:33 GMT",
+          "userID": 651
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f313",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 13:50:52 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 23:06:39 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 21:40:51 GMT",
+      "kWhDelivered": 48.626,
+      "sessionID": "1_1_179_799_2018-12-27 13:50:52.123950",
+      "siteID": "0001",
+      "spaceID": "AG-3F25",
+      "stationID": "1-1-179-799",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000401",
+      "userInputs": [
+        {
+          "WhPerMile": 325,
+          "kWhRequested": 48.75,
+          "milesRequested": 150,
+          "minutesAvailable": 112,
+          "modifiedAt": "Thu, 27 Dec 2018 13:52:08 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 15:42:52 GMT",
+          "userID": 401
+        },
+        {
+          "WhPerMile": 325,
+          "kWhRequested": 48.75,
+          "milesRequested": 150,
+          "minutesAvailable": 567,
+          "modifiedAt": "Thu, 27 Dec 2018 13:52:18 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:17:52 GMT",
+          "userID": 401
+        },
+        {
+          "WhPerMile": 325,
+          "kWhRequested": 13.0,
+          "milesRequested": 40,
+          "minutesAvailable": 557,
+          "modifiedAt": "Thu, 27 Dec 2018 21:50:22 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:07:52 GMT",
+          "userID": 401
+        },
+        {
+          "WhPerMile": 325,
+          "kWhRequested": 13.0,
+          "milesRequested": 40,
+          "minutesAvailable": 557,
+          "modifiedAt": "Thu, 27 Dec 2018 21:50:43 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:07:52 GMT",
+          "userID": 401
+        },
+        {
+          "WhPerMile": 325,
+          "kWhRequested": 13.0,
+          "milesRequested": 40,
+          "minutesAvailable": 593,
+          "modifiedAt": "Thu, 27 Dec 2018 21:51:59 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:43:52 GMT",
+          "userID": 401
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f316",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 14:25:45 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 00:23:21 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 18:18:26 GMT",
+      "kWhDelivered": 15.673,
+      "sessionID": "1_1_178_817_2018-12-27 14:25:44.661374",
+      "siteID": "0001",
+      "spaceID": "AG-1F09",
+      "stationID": "1-1-178-817",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000322",
+      "userInputs": [
+        {
+          "WhPerMile": 313,
+          "kWhRequested": 18.78,
+          "milesRequested": 60,
+          "minutesAvailable": 420,
+          "modifiedAt": "Thu, 27 Dec 2018 14:26:32 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 21:25:45 GMT",
+          "userID": 322
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f317",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 14:30:56 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 22:43:31 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 18:14:42 GMT",
+      "kWhDelivered": 8.992,
+      "sessionID": "1_1_193_827_2018-12-27 14:30:55.607892",
+      "siteID": "0001",
+      "spaceID": "AG-1F02",
+      "stationID": "1-1-193-827",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000169",
+      "userInputs": [
+        {
+          "WhPerMile": 600,
+          "kWhRequested": 24.0,
+          "milesRequested": 40,
+          "minutesAvailable": 482,
+          "modifiedAt": "Thu, 27 Dec 2018 14:31:40 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 22:32:56 GMT",
+          "userID": 169
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f318",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 14:35:46 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 00:34:33 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 20:21:40 GMT",
+      "kWhDelivered": 11.843,
+      "sessionID": "1_1_178_823_2018-12-27 14:35:45.619405",
+      "siteID": "0001",
+      "spaceID": "AG-1F08",
+      "stationID": "1-1-178-823",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000414",
+      "userInputs": [
+        {
+          "WhPerMile": 375,
+          "kWhRequested": 15.0,
+          "milesRequested": 40,
+          "minutesAvailable": 553,
+          "modifiedAt": "Thu, 27 Dec 2018 14:36:26 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:48:46 GMT",
+          "userID": 414
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f319",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 14:52:37 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 22:33:01 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 17:49:56 GMT",
+      "kWhDelivered": 14.845,
+      "sessionID": "1_1_194_818_2018-12-27 14:52:36.810838",
+      "siteID": "0001",
+      "spaceID": "AG-1F14",
+      "stationID": "1-1-194-818",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000723",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 32.0,
+          "milesRequested": 80,
+          "minutesAvailable": 333,
+          "modifiedAt": "Thu, 27 Dec 2018 14:53:04 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 20:25:37 GMT",
+          "userID": 723
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f31a",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 14:57:18 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 00:04:08 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 00:03:56 GMT",
+      "kWhDelivered": 36.824,
+      "sessionID": "1_1_179_797_2018-12-27 14:57:17.952048",
+      "siteID": "0001",
+      "spaceID": "AG-3F23",
+      "stationID": "1-1-179-797",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001157",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 40.0,
+          "milesRequested": 100,
+          "minutesAvailable": 541,
+          "modifiedAt": "Thu, 27 Dec 2018 14:57:21 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:58:18 GMT",
+          "userID": 1157
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f31b",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:05:26 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 23:05:55 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 23:05:32 GMT",
+      "kWhDelivered": 8.893,
+      "sessionID": "1_1_193_820_2018-12-27 15:05:25.528482",
+      "siteID": "0001",
+      "spaceID": "AG-1F04",
+      "stationID": "1-1-193-820",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000374",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 16.0,
+          "milesRequested": 40,
+          "minutesAvailable": 417,
+          "modifiedAt": "Thu, 27 Dec 2018 15:05:32 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 22:02:26 GMT",
+          "userID": 374
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f31c",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:24:17 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 02:08:11 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 01:57:59 GMT",
+      "kWhDelivered": 56.601,
+      "sessionID": "1_1_193_819_2018-12-27 15:24:16.554308",
+      "siteID": "0001",
+      "spaceID": "AG-1F06",
+      "stationID": "1-1-193-819",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000404",
+      "userInputs": [
+        {
+          "WhPerMile": 200,
+          "kWhRequested": 60.0,
+          "milesRequested": 300,
+          "minutesAvailable": 202,
+          "modifiedAt": "Thu, 27 Dec 2018 15:26:20 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 18:46:17 GMT",
+          "userID": 404
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f31d",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:29:20 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 19:12:50 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 19:12:41 GMT",
+      "kWhDelivered": 13.182,
+      "sessionID": "1_1_178_824_2018-12-27 15:29:19.551443",
+      "siteID": "0001",
+      "spaceID": "AG-1F07",
+      "stationID": "1-1-178-824",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001528",
+      "userInputs": [
+        {
+          "WhPerMile": 231,
+          "kWhRequested": 13.86,
+          "milesRequested": 60,
+          "minutesAvailable": 532,
+          "modifiedAt": "Thu, 27 Dec 2018 15:29:49 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 00:21:20 GMT",
+          "userID": 1528
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f31e",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:29:20 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 22:05:03 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 21:48:14 GMT",
+      "kWhDelivered": 39.716,
+      "sessionID": "1_1_179_783_2018-12-27 15:29:20.422903",
+      "siteID": "0001",
+      "spaceID": "AG-3F29",
+      "stationID": "1-1-179-783",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000528",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 75.0,
+          "milesRequested": 300,
+          "minutesAvailable": 392,
+          "modifiedAt": "Thu, 27 Dec 2018 15:29:20 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 22:01:20 GMT",
+          "userID": 528
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f31f",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:30:34 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 23:54:42 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 23:54:22 GMT",
+      "kWhDelivered": 52.998,
+      "sessionID": "1_1_179_815_2018-12-27 15:30:33.571520",
+      "siteID": "0001",
+      "spaceID": "AG-3F33",
+      "stationID": "1-1-179-815",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001281",
+      "userInputs": [
+        {
+          "WhPerMile": 300,
+          "kWhRequested": 75.0,
+          "milesRequested": 250,
+          "minutesAvailable": 560,
+          "modifiedAt": "Thu, 27 Dec 2018 15:31:08 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 00:50:34 GMT",
+          "userID": 1281
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f320",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:40:08 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:08:51 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 17:30:28 GMT",
+      "kWhDelivered": 5.566,
+      "sessionID": "1_1_179_798_2018-12-27 15:40:07.890363",
+      "siteID": "0001",
+      "spaceID": "AG-3F18",
+      "stationID": "1-1-179-798",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000577",
+      "userInputs": [
+        {
+          "WhPerMile": 333,
+          "kWhRequested": 6.66,
+          "milesRequested": 20,
+          "minutesAvailable": 493,
+          "modifiedAt": "Thu, 27 Dec 2018 15:40:09 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:53:08 GMT",
+          "userID": 577
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f321",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:41:07 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 22:29:57 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 22:29:55 GMT",
+      "kWhDelivered": 24.358,
+      "sessionID": "1_1_194_826_2018-12-27 15:41:06.595879",
+      "siteID": "0001",
+      "spaceID": "AG-1F11",
+      "stationID": "1-1-194-826",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001370",
+      "userInputs": [
+        {
+          "WhPerMile": 286,
+          "kWhRequested": 40.04,
+          "milesRequested": 140,
+          "minutesAvailable": 343,
+          "modifiedAt": "Thu, 27 Dec 2018 15:42:42 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 21:24:07 GMT",
+          "userID": 1370
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f322",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:44:46 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:11:34 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 17:00:01 GMT",
+      "kWhDelivered": 6.547,
+      "sessionID": "1_1_191_785_2018-12-27 15:44:45.715844",
+      "siteID": "0001",
+      "spaceID": "AG-4F48",
+      "stationID": "1-1-191-785",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000592",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 40.0,
+          "milesRequested": 100,
+          "minutesAvailable": 466,
+          "modifiedAt": "Thu, 27 Dec 2018 15:45:28 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:30:46 GMT",
+          "userID": 592
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f323",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 15:58:27 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:01:21 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 21:34:03 GMT",
+      "kWhDelivered": 34.446,
+      "sessionID": "1_1_191_812_2018-12-27 15:58:26.711356",
+      "siteID": "0001",
+      "spaceID": "AG-4F46",
+      "stationID": "1-1-191-812",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000724",
+      "userInputs": [
+        {
+          "WhPerMile": 288,
+          "kWhRequested": 34.56,
+          "milesRequested": 120,
+          "minutesAvailable": 458,
+          "modifiedAt": "Thu, 27 Dec 2018 15:59:21 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:36:27 GMT",
+          "userID": 724
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f324",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 16:05:56 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:54:12 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 19:49:29 GMT",
+      "kWhDelivered": 8.602,
+      "sessionID": "1_1_194_822_2018-12-27 16:05:55.817963",
+      "siteID": "0001",
+      "spaceID": "AG-1F12",
+      "stationID": "1-1-194-822",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000607",
+      "userInputs": [
+        {
+          "WhPerMile": 364,
+          "kWhRequested": 21.84,
+          "milesRequested": 60,
+          "minutesAvailable": 576,
+          "modifiedAt": "Thu, 27 Dec 2018 16:06:14 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 01:41:56 GMT",
+          "userID": 607
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f325",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 16:06:36 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 20:03:18 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 20:03:13 GMT",
+      "kWhDelivered": 12.538,
+      "sessionID": "1_1_193_816_2018-12-27 16:06:35.804706",
+      "siteID": "0001",
+      "spaceID": "AG-1F05",
+      "stationID": "1-1-193-816",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000741",
+      "userInputs": [
+        {
+          "WhPerMile": 296,
+          "kWhRequested": 50.32,
+          "milesRequested": 170,
+          "minutesAvailable": 197,
+          "modifiedAt": "Thu, 27 Dec 2018 16:06:44 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 19:23:36 GMT",
+          "userID": 741
+        },
+        {
+          "WhPerMile": 296,
+          "kWhRequested": 62.16,
+          "milesRequested": 210,
+          "minutesAvailable": 257,
+          "modifiedAt": "Thu, 27 Dec 2018 17:07:05 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 20:23:36 GMT",
+          "userID": 741
+        },
+        {
+          "WhPerMile": 296,
+          "kWhRequested": 71.04,
+          "milesRequested": 240,
+          "minutesAvailable": 257,
+          "modifiedAt": "Thu, 27 Dec 2018 17:07:21 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 20:23:36 GMT",
+          "userID": 741
+        },
+        {
+          "WhPerMile": 296,
+          "kWhRequested": 71.04,
+          "milesRequested": 240,
+          "minutesAvailable": 257,
+          "modifiedAt": "Thu, 27 Dec 2018 19:46:52 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 20:23:36 GMT",
+          "userID": 741
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f326",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 16:08:00 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 19:11:22 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 19:11:18 GMT",
+      "kWhDelivered": 18.092,
+      "sessionID": "1_1_179_800_2018-12-27 16:07:59.836672",
+      "siteID": "0001",
+      "spaceID": "AG-3F32",
+      "stationID": "1-1-179-800",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000481",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 75.2,
+          "milesRequested": 188,
+          "minutesAvailable": 717,
+          "modifiedAt": "Thu, 27 Dec 2018 16:09:17 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 04:05:00 GMT",
+          "userID": 481
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f327",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 16:20:12 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 19:21:24 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 19:21:20 GMT",
+      "kWhDelivered": 9.824,
+      "sessionID": "1_1_179_791_2018-12-27 16:20:12.086682",
+      "siteID": "0001",
+      "spaceID": "AG-3F26",
+      "stationID": "1-1-179-791",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000335",
+      "userInputs": [
+        {
+          "WhPerMile": 275,
+          "kWhRequested": 15.125,
+          "milesRequested": 55,
+          "minutesAvailable": 276,
+          "modifiedAt": "Thu, 27 Dec 2018 16:30:09 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 20:56:12 GMT",
+          "userID": 335
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f328",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 16:52:41 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 00:22:03 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 18:53:23 GMT",
+      "kWhDelivered": 6.074,
+      "sessionID": "1_1_193_825_2018-12-27 16:52:40.939155",
+      "siteID": "0001",
+      "spaceID": "AG-1F01",
+      "stationID": "1-1-193-825",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000172",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 7.5,
+          "milesRequested": 30,
+          "minutesAvailable": 419,
+          "modifiedAt": "Thu, 27 Dec 2018 16:53:20 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:51:41 GMT",
+          "userID": 172
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f329",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 17:07:21 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:36:06 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 20:45:12 GMT",
+      "kWhDelivered": 12.027,
+      "sessionID": "1_1_179_809_2018-12-27 17:07:21.364601",
+      "siteID": "0001",
+      "spaceID": "AG-3F27",
+      "stationID": "1-1-179-809",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000372",
+      "userInputs": [
+        {
+          "WhPerMile": 300,
+          "kWhRequested": 18.0,
+          "milesRequested": 60,
+          "minutesAvailable": 468,
+          "modifiedAt": "Thu, 27 Dec 2018 17:07:22 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 00:55:21 GMT",
+          "userID": 372
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f32a",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 17:08:49 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 00:15:20 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 20:58:13 GMT",
+      "kWhDelivered": 23.911,
+      "sessionID": "1_1_179_781_2018-12-27 17:08:48.557965",
+      "siteID": "0001",
+      "spaceID": "AG-3F31",
+      "stationID": "1-1-179-781",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000826",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 50.0,
+          "milesRequested": 200,
+          "minutesAvailable": 473,
+          "modifiedAt": "Thu, 27 Dec 2018 17:09:17 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 01:01:49 GMT",
+          "userID": 826
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f32c",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 17:42:21 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 21:48:38 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 21:28:36 GMT",
+      "kWhDelivered": 11.467,
+      "sessionID": "1_1_179_794_2018-12-27 17:42:20.746667",
+      "siteID": "0001",
+      "spaceID": "AG-3F20",
+      "stationID": "1-1-179-794",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000369",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 20.0,
+          "milesRequested": 50,
+          "minutesAvailable": 246,
+          "modifiedAt": "Thu, 27 Dec 2018 17:42:46 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 21:48:21 GMT",
+          "userID": 369
+        },
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 20.0,
+          "milesRequested": 50,
+          "minutesAvailable": 246,
+          "modifiedAt": "Thu, 27 Dec 2018 21:06:54 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 21:48:21 GMT",
+          "userID": 369
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f32d",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 17:42:24 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 20:18:27 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 20:18:23 GMT",
+      "kWhDelivered": 8.253,
+      "sessionID": "1_1_179_796_2018-12-27 17:42:24.414581",
+      "siteID": "0001",
+      "spaceID": "AG-3F24",
+      "stationID": "1-1-179-796",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000341",
+      "userInputs": [
+        {
+          "WhPerMile": 300,
+          "kWhRequested": 12.0,
+          "milesRequested": 40,
+          "minutesAvailable": 402,
+          "modifiedAt": "Thu, 27 Dec 2018 17:42:35 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 00:24:24 GMT",
+          "userID": 341
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f32e",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 17:43:08 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 02:23:14 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 01:26:56 GMT",
+      "kWhDelivered": 7.38,
+      "sessionID": "1_1_191_795_2018-12-27 17:43:07.982185",
+      "siteID": "0001",
+      "spaceID": "AG-4F51",
+      "stationID": "1-1-191-795",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000410",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 7.5,
+          "milesRequested": 30,
+          "minutesAvailable": 498,
+          "modifiedAt": "Thu, 27 Dec 2018 17:43:18 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 02:01:08 GMT",
+          "userID": 410
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f32f",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 17:49:37 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 22:19:34 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 19:50:47 GMT",
+      "kWhDelivered": 8.568,
+      "sessionID": "1_1_179_788_2018-12-27 17:49:37.179379",
+      "siteID": "0001",
+      "spaceID": "AG-3F22",
+      "stationID": "1-1-179-788",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001525",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 20.0,
+          "milesRequested": 50,
+          "minutesAvailable": 255,
+          "modifiedAt": "Thu, 27 Dec 2018 17:49:42 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 22:04:37 GMT",
+          "userID": 1525
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f331",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 19:21:26 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 00:09:22 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 00:09:05 GMT",
+      "kWhDelivered": 30.191,
+      "sessionID": "1_1_178_824_2018-12-27 19:21:25.776664",
+      "siteID": "0001",
+      "spaceID": "AG-1F07",
+      "stationID": "1-1-178-824",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000337",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 47.5,
+          "milesRequested": 190,
+          "minutesAvailable": 394,
+          "modifiedAt": "Thu, 27 Dec 2018 19:22:01 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 01:55:26 GMT",
+          "userID": 337
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f332",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 20:19:59 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:25:31 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 00:17:52 GMT",
+      "kWhDelivered": 10.554,
+      "sessionID": "1_1_193_816_2018-12-27 20:19:58.926824",
+      "siteID": "0001",
+      "spaceID": "AG-1F05",
+      "stationID": "1-1-193-816",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000346",
+      "userInputs": [
+        {
+          "WhPerMile": 373,
+          "kWhRequested": 14.92,
+          "milesRequested": 40,
+          "minutesAvailable": 221,
+          "modifiedAt": "Thu, 27 Dec 2018 20:20:01 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 00:00:59 GMT",
+          "userID": 346
+        },
+        {
+          "WhPerMile": 373,
+          "kWhRequested": 14.92,
+          "milesRequested": 40,
+          "minutesAvailable": 221,
+          "modifiedAt": "Thu, 27 Dec 2018 22:54:22 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 00:00:59 GMT",
+          "userID": 346
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f334",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 21:26:47 GMT",
+      "disconnectTime": "Thu, 27 Dec 2018 23:39:07 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 23:39:02 GMT",
+      "kWhDelivered": 13.719,
+      "sessionID": "1_1_179_777_2018-12-27 21:26:46.576525",
+      "siteID": "0001",
+      "spaceID": "AG-3F28",
+      "stationID": "1-1-179-777",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000608",
+      "userInputs": [
+        {
+          "WhPerMile": 316,
+          "kWhRequested": 28.44,
+          "milesRequested": 90,
+          "minutesAvailable": 419,
+          "modifiedAt": "Thu, 27 Dec 2018 21:27:24 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 04:25:47 GMT",
+          "userID": 608
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f335",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 21:29:40 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:13:29 GMT",
+      "doneChargingTime": "Thu, 27 Dec 2018 22:58:05 GMT",
+      "kWhDelivered": 8.469,
+      "sessionID": "1_1_179_813_2018-12-27 21:29:39.562863",
+      "siteID": "0001",
+      "spaceID": "AG-3F15",
+      "stationID": "1-1-179-813",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000336",
+      "userInputs": [
+        {
+          "WhPerMile": 292,
+          "kWhRequested": 14.6,
+          "milesRequested": 50,
+          "minutesAvailable": 223,
+          "modifiedAt": "Thu, 27 Dec 2018 21:30:47 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 01:12:40 GMT",
+          "userID": 336
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f336",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 22:02:31 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 05:54:13 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 04:32:18 GMT",
+      "kWhDelivered": 7.908,
+      "sessionID": "1_1_178_828_2018-12-27 22:02:30.932242",
+      "siteID": "0001",
+      "spaceID": "AG-1F10",
+      "stationID": "1-1-178-828",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000400",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 8.0,
+          "milesRequested": 20,
+          "minutesAvailable": 305,
+          "modifiedAt": "Thu, 27 Dec 2018 22:02:49 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 03:07:31 GMT",
+          "userID": 400
+        },
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 8.0,
+          "milesRequested": 20,
+          "minutesAvailable": 243,
+          "modifiedAt": "Thu, 27 Dec 2018 22:03:31 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 02:05:31 GMT",
+          "userID": 400
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f337",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 22:07:16 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:48:36 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 01:48:31 GMT",
+      "kWhDelivered": 22.523,
+      "sessionID": "1_1_179_800_2018-12-27 22:07:15.546010",
+      "siteID": "0001",
+      "spaceID": "AG-3F32",
+      "stationID": "1-1-179-800",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000362",
+      "userInputs": [
+        {
+          "WhPerMile": 286,
+          "kWhRequested": 40.04,
+          "milesRequested": 140,
+          "minutesAvailable": 236,
+          "modifiedAt": "Thu, 27 Dec 2018 22:07:40 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 02:03:16 GMT",
+          "userID": 362
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f338",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 22:37:00 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 01:05:06 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 00:14:59 GMT",
+      "kWhDelivered": 4.572,
+      "sessionID": "1_1_194_821_2018-12-27 22:36:59.833657",
+      "siteID": "0001",
+      "spaceID": "AG-1F13",
+      "stationID": "1-1-194-821",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000573",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 8.0,
+          "milesRequested": 20,
+          "minutesAvailable": 78,
+          "modifiedAt": "Thu, 27 Dec 2018 22:37:06 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Thu, 27 Dec 2018 23:55:00 GMT",
+          "userID": 573
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f339",
+      "clusterID": "0001",
+      "connectionTime": "Thu, 27 Dec 2018 23:40:34 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 02:43:21 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 02:43:16 GMT",
+      "kWhDelivered": 7.903,
+      "sessionID": "1_1_194_826_2018-12-27 23:40:33.857047",
+      "siteID": "0001",
+      "spaceID": "AG-1F11",
+      "stationID": "1-1-194-826",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000766",
+      "userInputs": [
+        {
+          "WhPerMile": 278,
+          "kWhRequested": 25.02,
+          "milesRequested": 90,
+          "minutesAvailable": 137,
+          "modifiedAt": "Thu, 27 Dec 2018 23:41:16 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 01:57:34 GMT",
+          "userID": 766
+        }
+      ]
+    },
+    {
+      "_id": "5c3671d2f9af8b4639a8f33a",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 00:40:39 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 03:33:07 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 02:30:23 GMT",
+      "kWhDelivered": 5.747,
+      "sessionID": "1_1_178_823_2018-12-28 00:40:39.118283",
+      "siteID": "0001",
+      "spaceID": "AG-1F08",
+      "stationID": "1-1-178-823",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000405",
+      "userInputs": [
+        {
+          "WhPerMile": 500,
+          "kWhRequested": 10.0,
+          "milesRequested": 20,
+          "minutesAvailable": 190,
+          "modifiedAt": "Fri, 28 Dec 2018 00:40:55 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 03:50:39 GMT",
+          "userID": 405
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f33b",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 14:00:29 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 00:37:34 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 15:57:23 GMT",
+      "kWhDelivered": 5.856,
+      "sessionID": "1_1_191_789_2018-12-28 14:00:29.013668",
+      "siteID": "0001",
+      "spaceID": "AG-4F52",
+      "stationID": "1-1-191-789",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000483",
+      "userInputs": [
+        {
+          "WhPerMile": 350,
+          "kWhRequested": 10.15,
+          "milesRequested": 29,
+          "minutesAvailable": 435,
+          "modifiedAt": "Fri, 28 Dec 2018 14:00:38 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 21:15:29 GMT",
+          "userID": 483
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f33c",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 14:02:52 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 19:47:14 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 19:12:48 GMT",
+      "kWhDelivered": 12.885,
+      "sessionID": "1_1_179_801_2018-12-28 14:02:52.382204",
+      "siteID": "0001",
+      "spaceID": "AG-3F21",
+      "stationID": "1-1-179-801",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000401",
+      "userInputs": [
+        {
+          "WhPerMile": 325,
+          "kWhRequested": 13.0,
+          "milesRequested": 40,
+          "minutesAvailable": 450,
+          "modifiedAt": "Fri, 28 Dec 2018 14:03:29 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 21:32:52 GMT",
+          "userID": 401
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f33d",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 14:21:12 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 22:45:52 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 16:34:23 GMT",
+      "kWhDelivered": 7.005,
+      "sessionID": "1_1_193_827_2018-12-28 14:21:11.687898",
+      "siteID": "0001",
+      "spaceID": "AG-1F02",
+      "stationID": "1-1-193-827",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000344",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 12.0,
+          "milesRequested": 30,
+          "minutesAvailable": 284,
+          "modifiedAt": "Fri, 28 Dec 2018 14:21:31 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 19:05:12 GMT",
+          "userID": 344
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f33e",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 14:30:17 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 21:32:39 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 17:29:46 GMT",
+      "kWhDelivered": 9.105,
+      "sessionID": "1_1_193_820_2018-12-28 14:30:16.653344",
+      "siteID": "0001",
+      "spaceID": "AG-1F04",
+      "stationID": "1-1-193-820",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000169",
+      "userInputs": [
+        {
+          "WhPerMile": 600,
+          "kWhRequested": 24.0,
+          "milesRequested": 40,
+          "minutesAvailable": 391,
+          "modifiedAt": "Fri, 28 Dec 2018 14:30:30 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 21:01:17 GMT",
+          "userID": 169
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f33f",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 15:03:00 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 23:05:40 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 23:05:32 GMT",
+      "kWhDelivered": 50.431,
+      "sessionID": "1_1_179_813_2018-12-28 15:03:00.328152",
+      "siteID": "0001",
+      "spaceID": "AG-3F15",
+      "stationID": "1-1-179-813",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001283",
+      "userInputs": [
+        {
+          "WhPerMile": 350,
+          "kWhRequested": 77.0,
+          "milesRequested": 220,
+          "minutesAvailable": 443,
+          "modifiedAt": "Fri, 28 Dec 2018 15:09:39 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 22:26:00 GMT",
+          "userID": 1283
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f340",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 15:13:33 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 21:24:46 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 17:35:05 GMT",
+      "kWhDelivered": 13.528,
+      "sessionID": "1_1_194_818_2018-12-28 15:13:33.266872",
+      "siteID": "0001",
+      "spaceID": "AG-1F14",
+      "stationID": "1-1-194-818",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000723",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 32.0,
+          "milesRequested": 80,
+          "minutesAvailable": 333,
+          "modifiedAt": "Fri, 28 Dec 2018 15:13:37 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 20:46:33 GMT",
+          "userID": 723
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f342",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 15:23:33 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 19:06:26 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 17:31:04 GMT",
+      "kWhDelivered": 11.538,
+      "sessionID": "1_1_178_824_2018-12-28 15:23:33.368180",
+      "siteID": "0001",
+      "spaceID": "AG-1F07",
+      "stationID": "1-1-178-824",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001528",
+      "userInputs": [
+        {
+          "WhPerMile": 231,
+          "kWhRequested": 16.17,
+          "milesRequested": 70,
+          "minutesAvailable": 364,
+          "modifiedAt": "Fri, 28 Dec 2018 15:23:58 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 21:27:33 GMT",
+          "userID": 1528
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f343",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 16:02:24 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 00:35:28 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 23:04:22 GMT",
+      "kWhDelivered": 43.161,
+      "sessionID": "1_1_179_810_2018-12-28 16:02:24.044542",
+      "siteID": "0001",
+      "spaceID": "AG-3F30",
+      "stationID": "1-1-179-810",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000481",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 75.2,
+          "milesRequested": 188,
+          "minutesAvailable": 717,
+          "modifiedAt": "Fri, 28 Dec 2018 16:02:32 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 03:59:24 GMT",
+          "userID": 481
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f344",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 16:05:23 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 00:56:23 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 22:45:38 GMT",
+      "kWhDelivered": 5.502,
+      "sessionID": "1_1_193_819_2018-12-28 16:05:22.521644",
+      "siteID": "0001",
+      "spaceID": "AG-1F06",
+      "stationID": "1-1-193-819",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000577",
+      "userInputs": [
+        {
+          "WhPerMile": 333,
+          "kWhRequested": 6.66,
+          "milesRequested": 20,
+          "minutesAvailable": 493,
+          "modifiedAt": "Fri, 28 Dec 2018 16:06:15 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 00:18:23 GMT",
+          "userID": 577
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f345",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 16:18:14 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 23:11:25 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 21:34:32 GMT",
+      "kWhDelivered": 31.854,
+      "sessionID": "1_1_179_800_2018-12-28 16:18:14.317089",
+      "siteID": "0001",
+      "spaceID": "AG-3F32",
+      "stationID": "1-1-179-800",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000631",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 20.0,
+          "milesRequested": 50,
+          "minutesAvailable": 389,
+          "modifiedAt": "Fri, 28 Dec 2018 16:37:34 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 22:47:14 GMT",
+          "userID": 631
+        },
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 36.0,
+          "milesRequested": 90,
+          "minutesAvailable": 408,
+          "modifiedAt": "Fri, 28 Dec 2018 16:37:57 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 23:06:14 GMT",
+          "userID": 631
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f346",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 16:30:46 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 00:28:42 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 18:29:26 GMT",
+      "kWhDelivered": 5.031,
+      "sessionID": "1_1_178_828_2018-12-28 16:30:46.018844",
+      "siteID": "0001",
+      "spaceID": "AG-1F10",
+      "stationID": "1-1-178-828",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000372",
+      "userInputs": [
+        {
+          "WhPerMile": 300,
+          "kWhRequested": 12.0,
+          "milesRequested": 40,
+          "minutesAvailable": 468,
+          "modifiedAt": "Fri, 28 Dec 2018 16:31:10 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 00:18:46 GMT",
+          "userID": 372
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f347",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 16:46:04 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 19:26:43 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 19:26:35 GMT",
+      "kWhDelivered": 16.58,
+      "sessionID": "1_1_179_781_2018-12-28 16:46:04.474710",
+      "siteID": "0001",
+      "spaceID": "AG-3F31",
+      "stationID": "1-1-179-781",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000826",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 50.0,
+          "milesRequested": 200,
+          "minutesAvailable": 470,
+          "modifiedAt": "Fri, 28 Dec 2018 16:46:19 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 00:36:04 GMT",
+          "userID": 826
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f348",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 16:49:19 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 01:04:25 GMT",
+      "doneChargingTime": "Sat, 29 Dec 2018 00:56:03 GMT",
+      "kWhDelivered": 49.895,
+      "sessionID": "1_1_191_808_2018-12-28 16:49:19.406349",
+      "siteID": "0001",
+      "spaceID": "AG-4F35",
+      "stationID": "1-1-191-808",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001162",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 50.0,
+          "milesRequested": 200,
+          "minutesAvailable": 569,
+          "modifiedAt": "Fri, 28 Dec 2018 16:51:11 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 02:18:19 GMT",
+          "userID": 1162
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f349",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 17:00:04 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 22:50:00 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 20:41:11 GMT",
+      "kWhDelivered": 11.564,
+      "sessionID": "1_1_179_798_2018-12-28 17:00:03.796283",
+      "siteID": "0001",
+      "spaceID": "AG-3F18",
+      "stationID": "1-1-179-798",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001590",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 24.0,
+          "milesRequested": 60,
+          "minutesAvailable": 295,
+          "modifiedAt": "Fri, 28 Dec 2018 17:01:29 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 21:55:04 GMT",
+          "userID": 1590
+        },
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 24.0,
+          "milesRequested": 60,
+          "minutesAvailable": 516,
+          "modifiedAt": "Fri, 28 Dec 2018 22:25:16 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 01:36:04 GMT",
+          "userID": 1590
+        },
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 20.0,
+          "milesRequested": 50,
+          "minutesAvailable": 516,
+          "modifiedAt": "Fri, 28 Dec 2018 22:26:04 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 01:36:04 GMT",
+          "userID": 1590
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f34a",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 17:02:52 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 23:51:51 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 19:57:29 GMT",
+      "kWhDelivered": 6.403,
+      "sessionID": "1_1_178_823_2018-12-28 17:02:51.747217",
+      "siteID": "0001",
+      "spaceID": "AG-1F08",
+      "stationID": "1-1-178-823",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000172",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 10.0,
+          "milesRequested": 40,
+          "minutesAvailable": 419,
+          "modifiedAt": "Fri, 28 Dec 2018 17:03:20 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 00:01:52 GMT",
+          "userID": 172
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f34b",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 17:03:51 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 19:36:02 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 19:35:56 GMT",
+      "kWhDelivered": 14.616,
+      "sessionID": "1_1_194_822_2018-12-28 17:03:51.016772",
+      "siteID": "0001",
+      "spaceID": "AG-1F12",
+      "stationID": "1-1-194-822",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000888",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 15.0,
+          "milesRequested": 60,
+          "minutesAvailable": 144,
+          "modifiedAt": "Fri, 28 Dec 2018 17:05:57 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 19:27:51 GMT",
+          "userID": 888
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f34c",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 17:12:48 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 21:55:09 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 21:12:47 GMT",
+      "kWhDelivered": 14.842,
+      "sessionID": "1_1_194_821_2018-12-28 17:12:48.105588",
+      "siteID": "0001",
+      "spaceID": "AG-1F13",
+      "stationID": "1-1-194-821",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000346",
+      "userInputs": [
+        {
+          "WhPerMile": 373,
+          "kWhRequested": 18.65,
+          "milesRequested": 50,
+          "minutesAvailable": 257,
+          "modifiedAt": "Fri, 28 Dec 2018 17:13:13 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 21:29:48 GMT",
+          "userID": 346
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f34d",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 17:16:53 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 01:05:30 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 18:18:21 GMT",
+      "kWhDelivered": 3.018,
+      "sessionID": "1_1_178_817_2018-12-28 17:16:53.166786",
+      "siteID": "0001",
+      "spaceID": "AG-1F09",
+      "stationID": "1-1-178-817",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000451",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 8.0,
+          "milesRequested": 20,
+          "minutesAvailable": 60,
+          "modifiedAt": "Fri, 28 Dec 2018 17:19:26 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 18:16:53 GMT",
+          "userID": 451
+        },
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 8.0,
+          "milesRequested": 20,
+          "minutesAvailable": 60,
+          "modifiedAt": "Fri, 28 Dec 2018 17:19:31 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 18:16:53 GMT",
+          "userID": 451
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f34e",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 17:32:53 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 20:25:37 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 19:54:21 GMT",
+      "kWhDelivered": 7.146,
+      "sessionID": "1_1_194_826_2018-12-28 17:32:53.253170",
+      "siteID": "0001",
+      "spaceID": "AG-1F11",
+      "stationID": "1-1-194-826",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000651",
+      "userInputs": [
+        {
+          "WhPerMile": 500,
+          "kWhRequested": 20.0,
+          "milesRequested": 40,
+          "minutesAvailable": 176,
+          "modifiedAt": "Fri, 28 Dec 2018 17:32:53 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 20:28:53 GMT",
+          "userID": 651
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f34f",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 17:48:38 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 03:15:46 GMT",
+      "doneChargingTime": "Sat, 29 Dec 2018 02:16:39 GMT",
+      "kWhDelivered": 7.426,
+      "sessionID": "1_1_191_795_2018-12-28 17:48:38.139289",
+      "siteID": "0001",
+      "spaceID": "AG-4F51",
+      "stationID": "1-1-191-795",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000410",
+      "userInputs": [
+        {
+          "WhPerMile": 250,
+          "kWhRequested": 7.5,
+          "milesRequested": 30,
+          "minutesAvailable": 498,
+          "modifiedAt": "Fri, 28 Dec 2018 17:48:49 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 02:06:38 GMT",
+          "userID": 410
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f350",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 17:49:38 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 02:35:04 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 20:17:04 GMT",
+      "kWhDelivered": 5.707,
+      "sessionID": "1_1_193_816_2018-12-28 17:49:38.402201",
+      "siteID": "0001",
+      "spaceID": "AG-1F05",
+      "stationID": "1-1-193-816",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000405",
+      "userInputs": [
+        {
+          "WhPerMile": 500,
+          "kWhRequested": 10.0,
+          "milesRequested": 20,
+          "minutesAvailable": 190,
+          "modifiedAt": "Fri, 28 Dec 2018 17:50:06 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 20:59:38 GMT",
+          "userID": 405
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f352",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 18:03:20 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 00:40:53 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 21:27:15 GMT",
+      "kWhDelivered": 11.103,
+      "sessionID": "1_1_191_782_2018-12-28 18:03:19.674845",
+      "siteID": "0001",
+      "spaceID": "AG-4F50",
+      "stationID": "1-1-191-782",
+      "timezone": "America/Los_Angeles",
+      "userID": "000001588",
+      "userInputs": [
+        {
+          "WhPerMile": 400,
+          "kWhRequested": 24.0,
+          "milesRequested": 60,
+          "minutesAvailable": 370,
+          "modifiedAt": "Fri, 28 Dec 2018 18:04:52 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 00:13:20 GMT",
+          "userID": 1588
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f353",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 18:09:15 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 02:45:05 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 21:55:54 GMT",
+      "kWhDelivered": 11.72,
+      "sessionID": "1_1_193_825_2018-12-28 18:09:15.167101",
+      "siteID": "0001",
+      "spaceID": "AG-1F01",
+      "stationID": "1-1-193-825",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000371",
+      "userInputs": [
+        {
+          "WhPerMile": 600,
+          "kWhRequested": 18.0,
+          "milesRequested": 30,
+          "minutesAvailable": 606,
+          "modifiedAt": "Fri, 28 Dec 2018 18:09:56 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 04:15:15 GMT",
+          "userID": 371
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f354",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 18:59:19 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 23:30:38 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 20:57:00 GMT",
+      "kWhDelivered": 11.344,
+      "sessionID": "1_1_179_777_2018-12-28 18:59:18.870824",
+      "siteID": "0001",
+      "spaceID": "AG-3F28",
+      "stationID": "1-1-179-777",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000419",
+      "userInputs": [
+        {
+          "WhPerMile": 600,
+          "kWhRequested": 24.0,
+          "milesRequested": 40,
+          "minutesAvailable": 257,
+          "modifiedAt": "Fri, 28 Dec 2018 19:00:16 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 23:16:19 GMT",
+          "userID": 419
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f355",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 19:43:03 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 20:18:20 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 20:18:15 GMT",
+      "kWhDelivered": 3.727,
+      "sessionID": "1_1_194_822_2018-12-28 19:43:03.409556",
+      "siteID": "0001",
+      "spaceID": "AG-1F12",
+      "stationID": "1-1-194-822",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000207",
+      "userInputs": [
+        {
+          "WhPerMile": 563,
+          "kWhRequested": 45.04,
+          "milesRequested": 80,
+          "minutesAvailable": 255,
+          "modifiedAt": "Fri, 28 Dec 2018 19:43:14 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Fri, 28 Dec 2018 23:58:03 GMT",
+          "userID": 207
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f356",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 21:53:55 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 01:07:44 GMT",
+      "doneChargingTime": "Sat, 29 Dec 2018 01:07:36 GMT",
+      "kWhDelivered": 13.116,
+      "sessionID": "1_1_178_824_2018-12-28 21:53:55.056377",
+      "siteID": "0001",
+      "spaceID": "AG-1F07",
+      "stationID": "1-1-178-824",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000608",
+      "userInputs": [
+        {
+          "WhPerMile": 316,
+          "kWhRequested": 28.44,
+          "milesRequested": 90,
+          "minutesAvailable": 419,
+          "modifiedAt": "Fri, 28 Dec 2018 21:54:08 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 04:52:55 GMT",
+          "userID": 608
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f357",
+      "clusterID": "0001",
+      "connectionTime": "Fri, 28 Dec 2018 21:54:35 GMT",
+      "disconnectTime": "Fri, 28 Dec 2018 23:57:01 GMT",
+      "doneChargingTime": "Fri, 28 Dec 2018 23:20:45 GMT",
+      "kWhDelivered": 8.227,
+      "sessionID": "1_1_193_820_2018-12-28 21:54:35.473216",
+      "siteID": "0001",
+      "spaceID": "AG-1F04",
+      "stationID": "1-1-193-820",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000076",
+      "userInputs": [
+        {
+          "WhPerMile": 300,
+          "kWhRequested": 15.0,
+          "milesRequested": 50,
+          "minutesAvailable": 143,
+          "modifiedAt": "Fri, 28 Dec 2018 21:55:14 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 00:17:35 GMT",
+          "userID": 76
+        }
+      ]
+    },
+    {
+      "_id": "5c3671f4f9af8b4639a8f358",
+      "clusterID": "0001",
+      "connectionTime": "Sat, 29 Dec 2018 00:24:01 GMT",
+      "disconnectTime": "Sat, 29 Dec 2018 01:52:33 GMT",
+      "doneChargingTime": "Sat, 29 Dec 2018 01:52:26 GMT",
+      "kWhDelivered": 9.019,
+      "sessionID": "1_1_193_829_2018-12-29 00:24:01.272280",
+      "siteID": "0001",
+      "spaceID": "AG-1F03",
+      "stationID": "1-1-193-829",
+      "timezone": "America/Los_Angeles",
+      "userID": "000000362",
+      "userInputs": [
+        {
+          "WhPerMile": 286,
+          "kWhRequested": 40.04,
+          "milesRequested": 140,
+          "minutesAvailable": 101,
+          "modifiedAt": "Sat, 29 Dec 2018 00:24:21 GMT",
+          "paymentRequired": true,
+          "requestedDeparture": "Sat, 29 Dec 2018 02:05:01 GMT",
+          "userID": 362
+        }
+      ]
+    }
+  ]
+}
