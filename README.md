@@ -3,9 +3,9 @@ The model suggests the optimal charging starting time and charging speed for e-c
 
 ### ⚡Context
 #### Problem & Constraint
-A workplace building manager grapples with a rising demand for electric car charging. There are two pressing concerns. If  the cars commence charging immediately and simultaneously at the highest charging speed upon their arrival, it would cause a sudden heightened load and risk the electrical system stability. Moreover, if they start charging during peak hours, the energy cost would be unnecessarily expensive. 
+A building manager grapples with a rising demand for electric car charging from her tenants. There are two pressing concerns. If the cars commence charging immediately and simultaneously at the highest charging speed upon their arrival, it would cause a sudden heightened load and risk the electrical system stability. Moreover, if they start charging during peak hours, the energy cost would be unnecessarily expensive.
 
-So her goal is to devise a charging strategy that minimizes energy costs and alleviates the electrical system burden, with the main constraint being to meet energy demand before car departure.
+So her goal is to devise a charging strategy that minimizes energy costs and alleviates the electrical system burden, with the main constraint being to meet energy demand before car departure
 #### Settings
 * **Electricity prices:**** The electricity prices during high-load phases are generally higher compared to low-load periods. Here, the project addresses the Time-of-Use tariff scheme, where electricity prices vary throughout the day but are predetermined.
 * **Charging speed**:The charging system is built-in with 3 charging speeds, namely, slow, medium, and fast charging.
