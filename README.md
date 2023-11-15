@@ -1,3 +1,4 @@
+[Gitbook](https://minh-anh-vu.gitbook.io/anh-vus-datacracy-hub/~/changes/K52oJexU6PiKPB9bRTo5/statistical-projects/process-simulation-charging-scheduling-optimization)
 # Charging-Scheduling-Optimization
 The model suggests the optimal charging starting time and charging speed for e-cars to minimize the user's charging cost, considering the predetermined electricity pricing scheme
 
