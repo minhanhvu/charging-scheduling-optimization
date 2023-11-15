@@ -24,7 +24,7 @@ To achieve that, the algorithm is designed to follow two key principles regardin
 
 #### Evaluation
 <p align="center"> 
-<img src="https://github.com/minhanhvu/Determinants-of-second-hand-car-prices/assets/87383756/b81b21bc-aa7b-4cfa-bf39-434a09788b51" width=60% height=60%>
+<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/9d004f54-4543-4fd4-a335-018f8f030e72" width=60% height=60%>
 </p>
 
 🎊 The algorithm’s effectiveness is assessed based on two metrics: (1) energy fulfillment rate and (2) the percentage of cost savings compared to charging upon arrival. Briefly, the average fulfillment rate is 94.8%. The entire fleet enjoy a 17.3% decrease in energy cost compared to the unscheduled charging. 
