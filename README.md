@@ -20,34 +20,14 @@ The strategy is straightforwards: delay charging to low-cost hours whenever the 
 
 To achieve that, the algorithm is designed to follow two key principles regarding the selection of charging speed and charging time. (1) Prioritize slower charge rate whenever feasible to reduce unnecessary pressure on the power grid and then (2) start the charging session at the first interval of the scenario that incurs the minimum cost. If the charging request cannot be fully satisfied within the time limit despite applying the highest charging speed, the algorithm will notify the vehicle's user.
 
-### 🔌 Process
-<p align="center"> 
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/70ac913c-a883-4774-8119-c6a5cce5dc31" width=40% height=40%>
-</p>
-
 ### 🚨 Outcome
-#### Simulation setup
-We evaluate the performance of the algorithm using a set of 6 simulated charging requirements (table below). System build-in charging rate include slow (3kW), medium (7kW), and fast charging (11kW). The charging process is assumed to be uninterrupted at a constant charge rate. 
-
-<p align="center"> 
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/f3f37427-de6b-499d-b2ff-0f4aa10613a4" width=60% height=60%>
-</p>
-
-<p align="center"> The assumed price of electricity that captures the load profile of a workplace
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/bccb6aa6-7e31-4222-925d-26ab64c11e46" width=60% height=60%>
-</p>
-
-
-
-
-<p align="center">
-<img src="https://github.com/minhanhvu/charging-scheduling-optimization/assets/87383756/0439bdf5-21d0-4358-bf6a-aa9e54d69c80" width=60% height=60%>
-</p>
 
 #### Evaluation
+<p align="center"> 
+<img src="https://github.com/minhanhvu/Determinants-of-second-hand-car-prices/assets/87383756/b81b21bc-aa7b-4cfa-bf39-434a09788b51" width=60% height=60%>
+</p>
 
 🎊 The algorithm’s effectiveness is assessed based on two metrics: (1) energy fulfillment rate and (2) the percentage of cost savings compared to charging upon arrival. Briefly, the average fulfillment rate is 94.8%. The entire fleet enjoy a 17.3% decrease in energy cost compared to the unscheduled charging. 
-
 
 ### 💡 Key learnings
 - This project is a simple form of placement algorithm with an objective function (charging cost minimization), constraint function (charging must be done within parking time), and decision variable (charging starting time). Using Python, I can simulate all feasible solutions and then identify the optimal one. 
