@@ -11,14 +11,14 @@ A building manager grapples with a rising demand for electric car charging from 
 
 So her goal is to devise a charging strategy that minimizes energy costs and alleviates the electrical system burden, with the main constraint being to meet energy demand before car departure
 #### Settings
-* **Electricity prices:**** The electricity prices during high-load phases are generally higher compared to low-load periods. Here, the project addresses the Time-of-Use tariff scheme, where electricity prices vary throughout the day but are predetermined.
+* **Electricity prices:** The electricity prices during high-load phases are higher compared to low-load periods. These prices are predetermined.
 * **Charging speed**:The charging system is built-in with 3 charging speeds, namely, slow, medium, and fast charging.
-* **Charging behaviors:** The vehicles can stay longer than the duration needed for charging, which is a typical charging pattern found in residential or workplace buildings
+* **Charging behaviors:** The customers arrive at the charging station, request the energy needed, and provide the departure time. The cars can stay longer than the duration needed for charging, which is a typical charging pattern found in residential or workplace buildings
   
 #### Strategy
 The strategy is straightforwards: delay charging to low-cost hours whenever the cars stay longer than the required charging duration 
 
-To achieve that, the algorithm is designed to follow two key principles regarding the selection of charging speed and charging time. (1) Prioritize slower charge rate whenever feasible to reduce unnecessary pressure on the power grid and then (2) start the charging session at the first interval of the scenario that incurs the minimum cost. If the charging request cannot be fully satisfied within the time limit despite applying the highest charging speed, the algorithm will notify the vehicle's user.
+To achieve that, the algorithm is designed to follow two key principles regarding the selection of **charging speed** and **charging time**. (1) Prioritize slower charge rate whenever feasible to reduce unnecessary pressure on the power grid and then (2) start the charging session at the first interval of the scenario that incurs the minimum cost. If the charging request cannot be fully satisfied within the time limit despite applying the highest charging speed, the algorithm will notify the vehicle's user.
 
 ### 💡 Outcome
 
